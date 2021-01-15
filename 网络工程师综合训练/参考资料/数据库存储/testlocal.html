@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <title>留言板</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+    <style>
+        .error {
+            color: #FF0000;
+        }
+    </style>
+
+
+</head>
+<body>
+<div class="col-lg-offset-3">
+    <h2>留言板</h2>
+
+    <p><span class="error">* 必填字段。</span></p>
+</div>
+
+<form class="form-horizontal" role="form" method="post" action="conn.php" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="name" class="col-lg-2 control-label" style="color: rgba(255,155,30,0.91)"><span
+                class="glyphicon glyphicon-user"></span></label>
+        <div class="col-lg-3">
+            <input type="text" id="name" name="name" class="form-control" placeholder="请输入用户名">
+        </div>
+        <div class="col-lg-3">
+            <span class="error">* </span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="title" class="col-lg-2 control-label" style="color: rgba(255,155,30,0.91)"><span
+                class="glyphicon glyphicon-bookmark"></span></label>
+
+        <div class="col-lg-3">
+            <input type="text" id="title" name="title" class="form-control" placeholder="请输入标题">
+        </div>
+        <div class="col-lg-3">
+            <span class="error">* </span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="content" class="col-lg-2 control-label" style="color: rgba(255,155,30,0.91)"> <span
+                class="glyphicon glyphicon-list-alt"></span></label>
+
+        <div class="col-lg-3">
+            <textarea id="content" name="content" rows="6" cols="55" placeholder="请输入内容"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <input type="submit" style="width:100px" class="btn  btn-default  col-lg-offset-4 " name="submit" >
+    </div>
+</form>
+
+<form class="form-inline col-lg-offset-2" role="form" method="post" enctype="multipart/form-data">
+
+
+        <!--文件选择input-->
+        <h3>文件选择：</h3>
+        <input class="btn btn-default" type="file" id="upFile" />
+
+        <!--文件选择input中已选择文件重置(采用form表单的reset重置按钮重置)-->
+        <h3>重置文件选择：</h3>
+        <input class="btn btn-default" type="reset" id="reBtn" value="清空" />
+
+        <!--提交压缩后的base64文件数据给后台-->
+        <h3>传给后台</h3>
+        <input class="btn btn-default" type="button" id="upTo" value="提交" />
+
+        <!--后台所要获取的文件base64-->
+        <h3></h3>
+        <input id="imgOne" name="imgOne" type="hidden"/>
+
+        <!--所选文件压缩前预览-->
+        <h3>压缩前预览：</h3>
+        <img src="" id="preview"/>
+
+        <!--所选文件压缩后预览-->
+        <h3>压缩后预览：</h3>
+        <img src="" id="nextview"/>
+
+
+</form>
+
+<div id="result"></div>
+
+</body>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+
+<link href="uploadSingleImg/css/uploadSingleImg.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
+<link href="uploadSingleImg/css/style.css" rel="stylesheet"><!--自己书写input样式-->
+
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="uploadSingleImg/js/tools.js"></script>
+<script type="text/javascript" src="uploadSingleImg/js/pictureHandle.js"></script>
+<!--<script type="text/javascript" src="sev/conn.js"></script>-->
+
+</html>

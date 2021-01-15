@@ -1,0 +1,184 @@
+h1{
+	/*float: left;*/
+	/*margin-left: 500px;*/
+	text-align: center;
+	font-size: 30px;
+	font-family: '微软雅黑';
+}
+.xing{
+	font-size: 15px;
+	color: red;
+	font-weight: bold;
+}
+#content{
+text-align: center;
+padding: 70px 0 0 15%;
+margin-bottom: 30px;
+width: 75%;
+}
+#out{
+	border: 1px solid #9ACD32;
+	/*height: 600px;*/
+	width: 800px;
+	text-align: center;
+	padding: 50px;
+	background-color: #F3F3F3;
+	border-radius: 5px;
+}
+#table1{
+	text-align: center;
+}
+.td1{
+	width: 100px;
+	padding-left: 80px;
+}
+.input1{
+	width: 380px;
+	height: 25px;
+	margin: 10px;
+}
+#addresstd{
+	float: left;
+	margin-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+textarea{
+	width: 380px;
+	height: 100px;
+}
+#table2{
+	/*padding-bottom: 50px;*/
+	padding-top: 30px;
+	text-align: center;
+	padding-left: 50px;
+
+}
+.sctd{
+	padding: 15px;
+	opacity: 0.4;
+	font-weight: bolder;
+}
+.sc{
+	border: black 1px solid;
+	text-align: 0 center;
+	height: 100px;
+	width: 120px;
+	padding: 20px  10px;
+}
+.border{
+	margin: 20px 0px 0px 35px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid gray;
+}
+.filea ,.fileb ,.filec, .filed{
+    position: relative;
+    display: inline-block;
+    background: rgba(0,0,0,0);
+    border: 1px solid #aaa;
+    padding: 4px 23px;
+    overflow: hidden;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 50px;
+    color: #aaa;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.fileerrorTip1,.showFileName1{margin-top: 3px;}
+.fileerrorTip2,.showFileName2{margin-top: 3px;}
+.fileerrorTip3,.showFileName3{margin-top: 3px;}
+.fileerrorTip4,.showFileName4{margin-top: 3px;}
+.filea input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.fileb input
+{
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.filec input
+{
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.filed input
+{
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.shch{
+	width: 120px;	
+}
+.tijiao{
+
+	float: right;
+	margin-right: 100px;
+	text-align: center;
+	display: block;
+    width: 150px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 15px;
+    background: rgb(120, 195, 0);
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(120, 195, 0);
+    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.dialog{
+	background: #fff;
+	position: absolute;
+	top: 330px;
+	left: 500px;
+	display: none;
+	border: 1px #aaa solid;
+	width: 300px;
+	height: 200px;
+}
+.dialog header{
+	height: 30px;
+	color: #777;
+	background: #eee;
+	line-height: 30px;
+}
+.dialog div{
+	height: 100px;
+	line-height: 100px;
+}
+.dialog button{
+	width: 70px;
+	height: 30px;
+}
+.dialog button a{
+	width: 70px;
+	padding:5px 20px;
+}
+.yes{
+	width: 700px;
+	height: 30px;
+}

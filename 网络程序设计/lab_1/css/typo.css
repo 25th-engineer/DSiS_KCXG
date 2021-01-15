@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+
+/* 如果你的项目仅支持 IE9+ | Chrome | Firefox 等，推荐在 <html> 中添加 .borderbox 这个 class */
+html.borderbox *, html.borderbox *:before, html.borderbox *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+aside {
+  margin: 0;
+  padding: 0;
+}
+
+/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+aside {
+  display: block;
+}
+
+@media only screen and ( max-width: 640px ) {
+  blockquote {
+    margin: 1em 0;
+  }
+}
+
+/* 让链接在 hover 状态下显示下划线 */
+a {
+  color: #1abc9c;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.typo a {
+  border-bottom: 1px solid #1abc9c;
+}
+
+.typo a:hover {
+  border-bottom-color: #555;
+  color: #555;
+  text-decoration: none;
+}
+
+/* 默认不显示下划线，保持页面简洁 */
+ins, a {
+  text-decoration: none;
+}
+
+/* Firefox 以外，元素没有下划线，需添加 */
+acronym, abbr {
+  border-bottom: 1px dotted;
+  font-variant: normal;
+}
+
+/* 添加鼠标问号，进一步确保应用的语义是正确的（要知道，交互他们也有洁癖，如果你不去掉，那得多花点口舌） */
+abbr {
+  cursor: help;
+}
+

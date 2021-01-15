@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0707bd84-0572-457b-8e20-08059e996da3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1jgHkPZIZoNgZKCHjGlbeedLTPp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.display.php">
+    <configuration name="display.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lab_3_2/display.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="footer.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lab_3_2/public/layouts/footer.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="header.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lab_3_2/public/layouts/header.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="nav.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lab_3_2/public/layouts/nav.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="config.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/config.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.display.php" />
+        <item itemvalue="PHP Script.config.php" />
+        <item itemvalue="JavaScript Debug.nav.php" />
+        <item itemvalue="JavaScript Debug.header.php" />
+        <item itemvalue="JavaScript Debug.footer.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0707bd84-0572-457b-8e20-08059e996da3" name="Default Changelist" comment="" />
+      <created>1604218956459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604218956459</updated>
+      <workItem from="1604218957589" duration="935000" />
+      <workItem from="1604219958786" duration="1529000" />
+      <workItem from="1604221535966" duration="1334000" />
+      <workItem from="1604229958200" duration="5232000" />
+      <workItem from="1604237000603" duration="3136000" />
+      <workItem from="1604281213295" duration="75000" />
+      <workItem from="1604281310794" duration="21000" />
+      <workItem from="1605927177912" duration="181000" />
+      <workItem from="1610704560913" duration="286000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="476" y="4" key="#PHP" timestamp="1604219025439">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="476" y="4" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1604219025439" />
+    <state x="496" y="102" key="#index.php" timestamp="1604219006097">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="102" key="#index.php/0.0.1536.824@0.0.1536.824" timestamp="1604219006097" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605927364137">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605927364137" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605927364137">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605927364137" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605927364137">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605927364137" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605927364137">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605927364137" />
+    <state x="604" y="337" key="NewPhpFileDialog" timestamp="1604219239709">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="337" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1604219239709" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1604219038475">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604219038475" />
+  </component>
+</project>

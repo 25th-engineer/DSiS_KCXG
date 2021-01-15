@@ -1,0 +1,196 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-03 15:07 China Standard Time
+
+NSE: Loaded 153 scripts for scanning.
+
+NSE: Script Pre-scanning.
+
+Initiating NSE at 15:07
+
+Completed NSE at 15:07, 0.00s elapsed
+
+Initiating NSE at 15:07
+
+Completed NSE at 15:07, 0.00s elapsed
+
+Initiating NSE at 15:07
+
+Completed NSE at 15:07, 0.00s elapsed
+
+Initiating Ping Scan at 15:07
+
+Scanning 210.45.240.197 [4 ports]
+
+Completed Ping Scan at 15:07, 0.10s elapsed (1 total hosts)
+
+Initiating Parallel DNS resolution of 1 host. at 15:07
+
+Completed Parallel DNS resolution of 1 host. at 15:07, 0.00s elapsed
+
+Initiating SYN Stealth Scan at 15:07
+
+Scanning www.hfut.edu.cn (210.45.240.197) [1000 ports]
+
+Discovered open port 443/tcp on 210.45.240.197
+
+Discovered open port 80/tcp on 210.45.240.197
+
+Completed SYN Stealth Scan at 15:07, 4.29s elapsed (1000 total ports)
+
+Initiating Service scan at 15:07
+
+Scanning 2 services on www.hfut.edu.cn (210.45.240.197)
+
+Completed Service scan at 15:07, 12.13s elapsed (2 services on 1 host)
+
+Initiating OS detection (try #1) against www.hfut.edu.cn (210.45.240.197)
+
+Retrying OS detection (try #2) against www.hfut.edu.cn (210.45.240.197)
+
+WARNING: OS didn't match until try #2
+
+Initiating Traceroute at 15:07
+
+Completed Traceroute at 15:07, 3.03s elapsed
+
+Initiating Parallel DNS resolution of 5 hosts. at 15:07
+
+Completed Parallel DNS resolution of 5 hosts. at 15:07, 11.02s elapsed
+
+NSE: Script scanning 210.45.240.197.
+
+Initiating NSE at 15:07
+
+Completed NSE at 15:07, 1.23s elapsed
+
+Initiating NSE at 15:07
+
+Completed NSE at 15:07, 0.27s elapsed
+
+Initiating NSE at 15:07
+
+Completed NSE at 15:07, 0.00s elapsed
+
+Nmap scan report for www.hfut.edu.cn (210.45.240.197)
+
+Host is up (0.0095s latency).
+
+Not shown: 998 filtered ports
+
+PORT    STATE SERVICE  VERSION
+
+80/tcp  open  http     nginx
+
+|_http-favicon: Unknown favicon MD5: 0CF9F38FBACCDAA130D8BC75774034AF
+
+| http-methods: 
+
+|   Supported Methods:  GET HEAD POST
+
+|_  Potentially risky methods: 
+
+|_http-title: \xE5\x90\x88\xE8\x82\xA5\xE5\xB7\xA5\xE4\xB8\x9A\xE5\xA4\xA7\xE5\xAD\xA6
+
+443/tcp open  ssl/http nginx
+
+|_http-favicon: Unknown favicon MD5: 0CF9F38FBACCDAA130D8BC75774034AF
+
+| http-methods: 
+
+|   Supported Methods:  GET HEAD POST
+
+|_  Potentially risky methods: 
+
+|_http-title: \xE5\x90\x88\xE8\x82\xA5\xE5\xB7\xA5\xE4\xB8\x9A\xE5\xA4\xA7\xE5\xAD\xA6
+
+| ssl-cert: Subject: commonName=www.hfut.edu.cn
+
+| Subject Alternative Name: DNS:www.hfut.edu.cn
+
+| Issuer: commonName=R3/organizationName=Let's Encrypt/countryName=US
+
+| Public Key type: rsa
+
+| Public Key bits: 4096
+
+| Signature Algorithm: sha256WithRSAEncryption
+
+| Not valid before: 2020-12-21T02:02:16
+
+| Not valid after:  2021-03-21T02:02:16
+
+| MD5:   d9e4 af23 b245 f2da c7ff 29db fdeb 4721
+
+|_SHA-1: b189 c295 9366 aa3d 25b3 846f 671a 3e05 1425 d64c
+
+|_ssl-date: TLS randomness does not represent time
+
+| tls-alpn: 
+
+|   h2
+
+|_  http/1.1
+
+| tls-nextprotoneg: 
+
+|   h2
+
+|_  http/1.1
+
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+
+Device type: WAP
+
+Running: Linux 2.4.X
+
+OS CPE: cpe:/o:linux:linux_kernel:2.4.36
+
+OS details: DD-WRT v24-sp1 (Linux 2.4.36)
+
+Uptime guess: 0.000 days (since Sun Jan 03 15:07:41 2021)
+
+Network Distance: 7 hops
+
+
+
+TRACEROUTE (using port 443/tcp)
+
+HOP RTT     ADDRESS
+
+1   7.00 ms 172.19.164.254
+
+2   4.00 ms 192.168.222.134
+
+3   ...
+
+4   5.00 ms 172.18.4.254
+
+5   9.00 ms usr56-171.guest.smu.edu (129.119.56.171)
+
+6   9.00 ms 172.16.200.1
+
+7   9.00 ms www.hfut.edu.cn (210.45.240.197)
+
+
+
+NSE: Script Post-scanning.
+
+Initiating NSE at 15:07
+
+Completed NSE at 15:07, 0.00s elapsed
+
+Initiating NSE at 15:07
+
+Completed NSE at 15:07, 0.00s elapsed
+
+Initiating NSE at 15:07
+
+Completed NSE at 15:07, 0.00s elapsed
+
+Read data files from: D:\NAMP\Nmap
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+
+Nmap done: 1 IP address (1 host up) scanned in 38.34 seconds
+
+           Raw packets sent: 2091 (96.216KB) | Rcvd: 61 (3.871KB)
+

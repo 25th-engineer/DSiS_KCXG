@@ -1,0 +1,108 @@
+
+#content{
+text-align: center;
+padding: 70px 0 0 200px;
+margin-bottom: 30px;
+}
+#out{
+	border: 1px solid #D3D3D3;
+	height: 300px;
+	width: 600px;
+	padding: 20px 50px;
+	text-align: center;
+	margin-left: 100px;
+	margin-bottom: 100px;
+	border-radius: 5px;
+}
+#table1{
+	text-align: center;
+}
+table tr td{
+	padding-top: 25px;
+}
+.td1{
+	font-size: 20px;
+	width: 100px;
+	padding-left: 80px;
+}
+.input1{
+	line-height: 20px;
+	width: 230px;
+	border-radius: 5px;
+	font-size: 20px;
+	height: 40px;
+	margin: 10px;
+}
+.border{
+	margin: 20px 0px 0px 35px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid gray;
+}
+.shch{
+	width: 120px;	
+}
+#chaxun{
+	text-align: center;
+	padding-top: 40px;
+	padding-left: 200px;
+}
+.chaxun{
+
+		text-align: center;
+		padding-bottom: 10px;
+		display: block;
+	    width: 150px;
+	    height: 26px;
+	    line-height: 26px;
+	    text-align: center;
+	    font-size: 15px;
+	    background: rgb(120, 195, 0);
+	    color: #fff;
+	    text-decoration: none;
+	    cursor: pointer;
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(120, 195, 0);
+	    border-radius: 16px;
+	    border-top-left-radius: 16px;
+	    border-top-right-radius: 16px;
+	    border-bottom-left-radius: 16px;
+	    border-bottom-right-radius: 16px;
+}
+.dialog{
+	background: #fff;
+	position: absolute;
+	top: 150px;
+	left: 500px;
+	display: none;
+	border: 1px #aaa solid;
+	width: 300px;
+	height: 200px;
+}
+.dialog header{
+	height: 30px;
+	color: #777;
+	background: #eee;
+	line-height: 30px;
+}
+.dialog div{
+	height: 100px;
+	line-height: 100px;
+}
+.dialog button{
+	width: 70px;
+	height: 30px;
+}
+.dialog button a{
+	width: 70px;
+	padding:5px 20px;
+}
+
+.tijiao{
+	float:left;
+	margin-top:100px;
+	margin-left:200px;
+}
+

@@ -1,0 +1,1 @@
+python374 assoc-rule-miner-template_1.py Data\Groceries100.csv 0.05

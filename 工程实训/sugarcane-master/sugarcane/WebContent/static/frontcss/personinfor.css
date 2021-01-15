@@ -1,0 +1,192 @@
+.body{
+	width: 75%; 
+	height:60em;
+	margin: 0 auto;
+	background-color: rgba(248,248,255,0.5);
+}
+.left{
+	width: 24.9%;
+	height: 100%;
+	float: left;
+	position: relative;
+	top:5em;
+}
+.personimg{
+	width: 6.25em;
+	height: 6.25em;
+	margin:0 auto;
+	position: relative;
+	top:1em;
+}
+.personimg img{
+	border-radius: 50%;
+	height: 6.25em;
+	width: 6.25em;
+}
+.nickname{
+	margin: 0 auto;
+	width: 6.25em;
+	height: 2em;
+	position: relative;
+	top:1em;
+}
+.nickname p{
+	margin-top: 0px;
+	text-align: center;
+	font-size: 15px;
+}
+.reinfor{
+	width: 12.5em;
+	height: 2em;
+	float: left;
+	position: relative;
+	top: 4em;
+	left: 2.5em;
+}
+.reinfor a{
+	text-align:center;
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-size: 1.125em;
+	border: 0.0625em solid rgba(220,220,220,0.5);
+	border-radius: 1em;
+}
+.reinfor a:hover{
+	background-color: #DEFFAC;
+
+}
+.collect{
+	width: 12.5em;
+	height: 2em;
+	float: left;
+	position: relative;
+	top: 6em;
+	left: 2.5em;
+}
+.collect a{
+	text-align:center;
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-size: 1.125em;
+	border: 0.0625em solid rgba(220,220,220,0.5);
+	border-radius: 1em;
+}
+.collect a:hover{
+	background-color: #DEFFAC;
+}
+.line{
+	width: 0.1%;
+	height: 90%;
+	background-color: gray;
+	float: left;
+	position: relative;
+	top:1em;
+}
+.right{
+
+	width: 60%;
+	height: 100%;
+	float: left;
+	position: relative;
+	left:4em;
+}
+.infor{
+	
+	width:100%;
+	height: 10%;
+	float: left;
+}
+.infor p{
+	margin-left: 4.6875em;
+	margin-top: 2.5em;
+	font-size: 1.25em;
+}
+.inforline{
+	
+	width: 15%;
+	height:0.1%;
+	float: left;
+	background-color: gray;
+	position: relative;
+	top:-1em;
+	left: 5em;
+}
+.information{
+	
+	width: 100%;
+	height: 50%;
+	float: left;
+	
+}
+.information table td{
+	height: 3.125em;
+	width: 12.5em;
+	font-size: 1.0625em;	
+
+}
+.information table{
+	position: relative;
+	left: 11.25em;
+	top: 1.5625em;
+}
+.inforline2{
+	
+	width: 95%;
+	height:0.1%;
+	float: left;
+	background-color: gray;
+	margin-left: 1.25em;
+}
+.infor2{
+	
+	width:100%;
+	height: 10%;
+	float: left;
+
+}
+.infor2 p{
+	margin-left: 5em;
+	margin-top: 2.5em;
+	font-size: 1.25em;
+}
+.inforline3{
+	
+	width: 15%;
+	height:0.1%;
+	float: left;
+	background-color: gray;
+	position: relative;
+	left: 5.5em;
+	top: -1em;
+}
+.fuxuankuang{
+	
+	width: 100%;
+	height: 18%;
+	float: left;
+}
+.fuxuankuang table td{
+	height: 2.5em;
+	width: 12.5em;
+}
+.fuxuankuang table{
+	margin-left: 12.5em;
+}
+.tijiao{
+	/*修改 冯海晴*/
+	width: 70%;
+	height: 12%;
+	float: left;
+}
+.tijiao input{
+	float: right;
+	margin-right: 11.25em;
+	width: 6.25em;
+	background:	#DEFFAC;
+	height: 1.5625em;
+	border-radius: 15%;
+
+
+}

@@ -1,0 +1,231 @@
+.body{
+	width: 75%; 
+	height:60em;
+	margin: 0 auto;
+	background-color: rgba(248,248,255,0.5);
+}
+.left{
+	width: 24.9%;
+	height: 100%;
+	float: left;
+	position: relative;
+	top:5em;
+}
+.personimg{
+	width: 6.25em;
+	height: 6.25em;
+	margin:0 auto;
+	position: relative;
+	top:1em;
+}
+.personimg img{
+	border-radius: 50%;
+	height: 6.25em;
+	width: 6.25em;
+}
+.nickname{
+	margin: 0 auto;
+	width: 6.25em;
+	height: 2em;
+	position: relative;
+	top:1em;
+}
+.nickname p{
+	margin-top: 0px;
+	text-align: center;
+	font-size: 15px;
+}
+.reinfor{
+	width: 12.5em;
+	height: 2em;
+	float: left;
+	position: relative;
+	top: 4em;
+	left: 2.5em;
+}
+.reinfor a{
+	text-align:center;
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-size: 1.125em;
+	border: 0.0625em solid rgba(220,220,220,0.5);
+	border-radius: 1em;
+}
+.reinfor a:hover{
+	background-color: #DEFFAC;
+
+}
+.collect{
+	width: 12.5em;
+	height: 2em;
+	float: left;
+	position: relative;
+	top: 6em;
+	left: 2.5em;
+}
+.collect a{
+	text-align:center;
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-size: 1.125em;
+	border: 0.0625em solid rgba(220,220,220,0.5);
+	border-radius: 1em;
+}
+.collect a:hover{
+	background-color: #DEFFAC;
+
+}
+.line{
+	width: 0.1%;
+	height: 90%;
+	background-color: gray;
+	float: left;
+	position: relative;
+	top:1em;
+}
+.right{
+
+	width: 60%;
+	height: 100%;
+	float: left;
+	position: relative;
+	left:4em;
+}
+.down{
+
+	width: 30%;
+	height: 3%;
+	float: left;
+	position: relative;
+	top:1em;
+}
+.down select{
+	width: 100%;
+	height: 100%;
+	border-radius:0.3125em;
+}
+.collections_page{
+	width: 90%;
+	height: 3em;
+	margin: 0 auto;
+	position: relative;
+	top:1em;
+}
+.collections_page_list{
+	position: relative;
+	top:1em;
+	left: 1em;
+}
+.collections_page_list li {
+	width: 5em;
+	float: left;
+	position: relative;
+	left:1em;
+	text-align: center;
+	background-color: white;
+}
+
+.collections_page_list li a{
+	height: 1.25em;
+	width:2.5em;
+	color: black;
+}
+
+.coll{
+
+	width: 100%;
+	height: 50em;
+	float: left;
+	background-color: rgba(220,220,220,0.5);
+	position: relative;
+	top:2em;
+}
+.colls_items{
+	float: left;
+	width: 15em;
+	height: 15em;
+	background-color: white;
+	position: relative;
+	top:2em;
+	left: 6em;
+}
+.colls_items_img {
+	border:0.0625em rgba(248,248,255,0.5) solid;
+	position: relative;
+	top:1em;
+	left:1em;
+	width: 13em;
+	height: 9em;
+}
+.colls_items_img img{
+	width: 13em;
+	height: 9em;
+}
+.colls_items_text {
+	border:0.0625em gray solid;
+	width: 13em;
+	height: 3em;
+	position: relative;
+	top:1em;
+	left: 1em;
+}
+.colls_items_text_content {
+	width: 10em;
+	height: 2.5em;
+	overflow: hidden;
+	float: left;
+}
+.colls_items_text_del {
+	float: right;
+	position: relative;
+	top:1em;
+}
+.colls_items_text_del img {
+	width: 1em;
+	height: 1em;
+}
+
+.last{	
+width: 100%;
+height: 17%;
+float: left;
+position: relative;
+top:2em;
+}
+.list{
+
+	height: 20%;
+	width: 20em;
+	float: left;
+	margin: 0 auto;
+	position: relative;
+	left: 13em;
+}
+.list a{
+		float: left;
+		margin:5px 15px 0 1px;
+		width: 20px;
+		height: 20px;
+		color: #999;
+		font:12px/20px 宋体;
+		text-align: center;
+		text-decoration: none;
+		font-size: 20px;
+		
+
+}
+
+.list a:hover{
+	position: relative;
+	margin:0 -9px 0 -9px;
+	padding: 0 5px;
+	width: 30px;
+	height: 30px;
+	font:bold 36px/30px 宋体;
+	color:#000;
+	border: 1px solid black;
+	background-color: #eee;
+
+}

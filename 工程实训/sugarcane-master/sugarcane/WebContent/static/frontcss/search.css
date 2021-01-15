@@ -1,0 +1,98 @@
+.body{
+	width: 75%;
+	height: 55em;
+	margin: 0 auto;
+	background-color: rgba(248,248,255,0.5);
+}
+.body_right{ 
+	margin-left: 14%;
+	height: 70%;
+   	width: 78%;
+}
+.righttwo {
+	position:relative;
+	top:1em;
+}
+.righttwotable{
+	border:1px #f8f8f8 solid;
+	background-color:#fff;
+	float: left;
+	width: 45em;
+	height:10em;
+	margin-top: 2%;
+	margin-left: 10%
+}
+.result{
+	text-align:center;
+	padding-top: 3%;
+	padding-left:8% ;
+	color: #696969;
+}
+.pic{
+	float:left;
+	width:12em;
+	height:8em;
+    position:relative;
+    top:1em;
+    left:1em;
+}
+.pic img{
+	width: 100%;
+	height: 100%;
+}
+.h3{
+	float:left;
+	width: 20%;
+	text-align: center;
+	background-color: white;
+	position:relative;
+    top:2em;
+    left:2em;
+}
+.p{
+	float:left;
+	width: 60%;
+	font-weight: lighter;
+	background-color: white;
+	font-size: 78%;
+	position:relative;
+    top:4em;
+    left:5em;
+}
+.others{
+	float:left;
+	width: 20%;
+	text-align:center;
+	font-weight: lighter;
+	background-color: white;
+	font-size: 78%;
+	position:relative;
+    top:6em;
+    left:2em;
+}
+.rightthree{
+	float: left;
+	margin: 2% 0 0 35%;
+}
+.pager li {
+	float: left;
+	margin-left: 1.25em;
+}
+.pager a{
+	height: 1.25em;
+	width:2.5em;
+	background-color: white;
+	border: none;
+	color: black;
+}
+select{
+	padding: 0 2%;
+	margin: 1.25em 0 0 5.625em;
+	height: 1.875em;
+	width: 7.5em;
+}
+option{
+	text-align: center;
+}
+
+

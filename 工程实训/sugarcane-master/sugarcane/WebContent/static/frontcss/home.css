@@ -1,0 +1,322 @@
+/*body*/
+h1{
+	font-size:1.5625em;
+}
+.body{
+	width: 77.5em; 
+	padding-top:0.625em;
+	margin: 0 auto;
+	margin-bottom:2.5em;
+}
+ul {
+	list-style-type: none;
+}
+
+/**
+ * 幻灯片
+ ----------------------------------------*/
+.slider-container {
+	position: relative;
+	margin: 0 auto;
+	width: 77.5em;
+	height: 34.375em;
+}
+
+.slider-wrapper {
+	position: relative;
+	z-index: 90;
+	height: 34.375em;
+	width: 100%;
+	overflow: hidden;
+}
+
+.slider-wrapper li {
+	display: none;
+}
+
+li.slide-current {
+	display: block;
+}
+
+.slider-wrapper li img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+/**
+ * 幻灯片文字
+ ----------------------------------------*/
+.caption {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	width: 20%;
+	//background: rgba(0,0,0,0.6);
+	padding: 0.75em;
+}
+
+.caption-title {
+	//color: #00c5b9;
+	font-weight: 700;
+	font-size: 1.6em;
+	margin-bottom: 0.625em;
+}
+
+.caption p {
+	width: 100%;
+	//color: #FFF;
+	font-weight: 700;
+	font-size: 1.4em;
+	line-height: 1.3em;
+	word-wrap:break-word;  
+    word-break:break-all;
+}
+
+/**
+ * 幻灯片滚轮
+ ----------------------------------------*/
+.slider-controls {
+	text-align: center;
+	margin-top: 0.625em;
+}
+
+.slider-controls li {
+	background: #415066;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	display: inline-block;
+	height: 0.75em;
+	width: 0.75em;
+	margin: 0 0.25em;
+	cursor: pointer;
+}
+
+.slider-controls li.active {
+	background: #00c5b9;	
+}
+
+/*主页内容块*/
+/*猜你喜欢块*/
+.first{
+	margin-top:1.875em;
+	height:14.0625em;
+}
+.first img{
+	float:left;
+	padding-top:0.25em;
+	margin-left:0.9375em;
+}
+.first h1{
+	margin-left:3.75em;
+}
+.first_love{
+	margin-top:0.625em;
+}
+/*热门推荐块*/
+.second{
+	height:32.8125em;
+}
+.second img{
+	float:left;
+	padding-top:0.25em;
+	margin-left:0.9375em;
+}
+.second h1{
+	margin-left:3.75em;
+}
+.second_hot{
+	margin-top:1.25em;
+}
+.hot{
+	width:25em;
+	height:9.375em;
+	float:left;
+	margin-left:0.625em;
+}
+.hot h3{
+	font-size:0.9375em;
+	margin-left:15.375em;
+	margin-top:1.25em;
+}
+.hot p{
+	margin-left:14.375em;
+	margin-top:0.3125em;
+}
+/*课程分类块*/
+.project{
+	width:77.5em;
+	border-top:0.125em solid gray;
+	border-bottom:0.125em solid gray;
+}
+.project_1{
+	padding-top:0.625em;
+}
+.project_1 img{
+	float:left;
+	padding-top:0.25em;
+	margin-left:0.9375em;
+}
+.project_1 h1{
+	margin-left:5em;
+}
+.project_2{
+	padding-top:1.25em;
+}
+.project_2 h2{
+	font-size:1.25em;
+	float:left;
+	width:9.375em;
+}
+.project_2 a{
+	color:black;
+}
+.project_2 ul li{
+	display:inline;
+	float:left;
+	padding-top:0.625em;
+	margin-right:5em;
+}
+.project_3{
+	height:14.375em;
+	padding-top:0.625em;
+}
+.project_4{
+	height:11.875em;
+	padding-top:0.625em;
+	padding-left:2.5em;
+}
+.project_3 img{
+	width:12.5em;
+	height:11.875em;
+}
+.project_4 img{
+	width:10em;
+	height:9.375em;
+}
+.project_5{
+	padding-left:2.5em;
+	text-align:center;
+}
+.p{
+	height:2.5em;
+	width:9.875em;
+	border:0.0625em solid gray;
+	margin-top:-2.5em;
+}
+.p a{
+	color:black;
+}
+.p a p{
+	font-size:0.9375em;
+}
+.project_6{
+	height:5em;
+	padding-left:1.25em;
+}
+.project_6 p{
+	font-size:0.9375em;
+	color:black;
+	float:left;
+	cursor:pointer;
+}
+.project_6 img{
+	width:0.625em;
+	margin-left:0.625em;
+}
+/*培训机构块*/
+.last{
+	width:77.5em;
+	margin-top:1.875em;
+}
+.plane{
+	height:1.5625em;
+	float:left;
+	padding-top:0.25em;
+	margin-left:0.9375em;
+}
+.last_1 h1{
+	margin-left:2.5em;
+	display:inline;
+}
+.last_1 h2{
+	font-size:1.25em;
+	margin-right:0.625em;
+	float:right;
+	display:inline;
+	cursor:pointer 
+}
+.last_1 a{
+	color:black;
+}
+#triangle2{
+	margin-top:0.625em;
+	width:0.9375em;
+	height:0.625em;
+	float:right;
+}
+.last_2{
+	color:#009900;
+	font-size:0.9375em;
+	margin-top:1.25em;
+	margin-left:4.375em;
+}
+.last_3{
+	float:right;
+	margin-top:1.25em;
+	text-align:center;
+	border:0.0625em solid gray;
+}
+.last_3 td{
+	height:11.5625em;
+	width:16.5625em;
+}
+.black{
+	background-color:black;
+}
+.black a{
+	font-size:0.9375em;
+	color:white;
+	font-weight:bolder;
+}
+.white a{
+	color:black;
+	font-size:0.9375em;
+	font-weight:bolder;
+}
+.gray{
+	background-color:gray;
+}
+.gray a{
+	color:black;
+	font-size:0.9375em;
+	font-weight:bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

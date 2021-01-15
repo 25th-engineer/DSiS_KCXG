@@ -1,0 +1,202 @@
+/*header*/
+.login_regist a{
+	text-decoration:none;
+}
+.org_login a{
+	text-decoration:none;
+}
+
+/*body*/
+.body{
+	/* width: 77.5em; 
+	height:43.75em;
+	margin: 0 auto; 
+	修改：冯海晴*/
+	width: 80% 
+	height:100%
+	margin: 0 auto;
+}
+
+.toptip{
+	width: 76.875em;
+	height:1.25em;
+	text-align: center;
+	position: relative;
+	top:0.625em;
+}
+.top_form{
+	border: 0.0625em #B4EEB4 solid;
+	width: 31.25em;
+	height: 23.5em;	/*height: 16.25em;*/
+	margin: 0 auto;
+	position: relative;
+	top:0.875em;	/*top:0.875em;*/
+	left:0.9375em;
+
+    border-radius: 1em;
+    border-top-right-radius: 0.625em;
+    border-top-left-radius: 0.625em;
+    border-bottom-left-radius: 0.625em;
+    border-bottom-right-radius: 0.625em;
+}
+
+/*冯海晴，2018.5.23*/
+.username{
+	width: 21.55em;
+	height: 1.5625em;
+	margin:0 auto;
+	position: relative;
+	top:1.25em;
+}
+/*冯海晴，2018.5.23*/
+.useremail{
+	width: 21.55em;
+	height: 1.5625em;
+	margin:0 auto;
+	position: relative;
+	top:2.5em;
+}
+.sex{
+	width: 21.55em;
+	height: 1.5625em;
+	margin:0 auto;
+	position: relative;
+	top:3.75em;
+}
+.age{
+	width: 21.55em;
+	height: 1.5625em;
+	margin:0 auto;
+	position: relative;
+	top:5em;
+}
+.edurank{
+	width: 21.55em;
+	height: 1.5625em;
+	margin:0 auto;
+	position: relative;
+	top:6.25em;
+}
+.work{
+	width: 21.55em;
+	height: 1.5625em;
+	margin:0 auto;
+	position: relative;
+	top:7.5em;
+}
+.address{
+	width: 21.55em;
+	height: 1.5625em;
+	margin:0 auto;
+	position: relative;
+	top:8.75em;
+}
+/*冯海晴，2018.5.23*/
+.userphone{
+	width: 21.55em;
+	height: 1.5625em;
+	margin:0 auto;
+	position: relative;
+	top:10em;
+}
+/*鍒嗗壊绾�*/
+.top_select{
+	border-top:0.0625em #B4EEB4 dashed;
+	width: 76.875em;
+	height: 21.875em;
+	margin: 0 auto;
+	position: relative;
+	top:1.875em;
+}
+/*鍏磋叮鐖卞ソ*/
+.interest{
+	border: 0.0625em #B4EEB4 dashed;
+	width: 6.25em;
+	height: 1.5625em;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top:0.625em;
+}
+/*澶嶉�夋鐨勬�籨iv*/
+.mixselect{
+	/* width: 40.625em;
+	height: 15em;
+	margin:0 auto;
+	padding-left: 5em;
+	冯海晴 */
+	width: 40.625em;
+	height: 15em;
+	margin:0 auto;
+	margin-top: 4em;
+	padding-left: 5em;
+	float: left;
+}
+
+/*澶嶉�夋鏍峰紡*/
+.demo--label{
+	width: 6.25em;
+	position: relative;
+	margin:1.25em 1.25em 0 0;
+	display:inline-block;
+}
+
+.demo--radio{
+	display:none;
+}
+.demo--radioInput{
+	background-color:#fff;
+	border:0.0625em solid rgba(0,0,0,0.15);
+	border-radius:100%;
+	display:inline-block;
+	height:1em;
+	position: relative;
+	top:-0.0625em;
+	right: 0.625em;
+	vertical-align:middle;
+	width:1em;
+	line-height:1;
+}
+.demo--radio:checked + .demo--radioInput:after{
+	background-color:#57ad68;
+	border-radius:100%;
+	content:"";
+	display:inline-block;
+	height:0.75em;
+	margin:0.125em;
+	width:0.75em;
+}
+.demo--checkbox.demo--radioInput,.demo--radio:checked + .demo--checkbox.demo--radioInput:after{
+	border-radius:0;
+}
+
+/*淇濆瓨鎸夐挳*/
+.save{
+	width: 5em;
+	height: 1.5625em;
+	margin:0 auto;
+	margin-top: 0.9375em;
+}
+#btn_save{
+	display:block;
+	width:5em;
+	height:1.5625em; 
+	line-height:1.5625em; 
+	text-align:center; 
+	font-size:0.875em; 
+	background:#B4EEB4;
+	color:black; 
+	text-decoration:none; 
+	cursor:pointer;
+	margin: 0 auto;
+
+	border-width:0.0625em;
+	border-style:solid;
+	border-color:rgb(120, 195, 0);
+	border-radius:1em;
+	border-top-left-radius:0.3125em;
+	border-top-right-radius:0.3125em;
+	border-bottom-left-radius:0.3125em;
+	border-bottom-right-radius:0.3125em;
+}
+

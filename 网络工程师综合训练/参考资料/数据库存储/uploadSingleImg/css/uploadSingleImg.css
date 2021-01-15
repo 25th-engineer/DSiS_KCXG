@@ -1,0 +1,8 @@
+* {box-sizing:border-box;font-size: 10px;vertical-align: middle;}
+/* 清除现代IE浏览器的输入框和密码框的默认交互按钮 */
+::-ms-clear, ::-ms-reveal{display: none;}
+input {box-sizing:border-box;}
+input:active, input:focus{ outline:none; -moz-outline:none;} /* PC chrome文本输入框的边框焦点时候的颜色 */
+input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner{ border:none;} /*去掉移动端firefox 按钮获得焦点显示虚线框的样式 */
+
+/* main style */

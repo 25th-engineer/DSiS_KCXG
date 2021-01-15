@@ -1,0 +1,58 @@
+.myfloat {
+    float: left;
+}
+
+/*底部Toast提醒样式 开始*/
+.bd-notice {
+    background-color: #00d1b2;
+
+    padding: 1em;
+    text-align: center;
+    /*opacity: 0.9;*/
+}
+
+.bd-notice-body {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.bd-notice-body a, .bd-notice-body strong {
+    color: currentColor
+}
+
+.bd-notice-body a {
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    padding-bottom: 2px
+}
+
+.bd-notice-body a:hover {
+    border-bottom-color: #fff
+}
+
+.bd-notice-body span {
+    margin: 0 .25em;
+    opacity: .5
+}
+
+@media screen and (max-width: 768px) {
+    .bd-notice {
+        font-size: .75rem
+    }
+
+    .bd-notice-body {
+        flex-wrap: wrap
+    }
+
+    .bd-notice-body p:first-child {
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 769px), print {
+    .bd-notice-body p:first-child {
+        margin-right: 1em
+    }
+}
+
+/*底部Toast提醒样式 结束*/

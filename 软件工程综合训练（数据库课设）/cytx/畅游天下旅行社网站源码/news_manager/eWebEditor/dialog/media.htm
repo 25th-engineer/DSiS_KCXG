@@ -1,0 +1,90 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<script language=javascript src="dialog.js"></script>
+<link href='dialog.css' type='text/css' rel='stylesheet'>
+<TITLE>媒体文件属性</TITLE>
+
+<script language="javascript">
+function ReturnValue(){
+	var sFromUrl = d_fromurl.value;
+	var sWidth = d_width.value;
+	var sHeight = d_height.value;
+
+	var sHTML = '<EMBED src="' + sFromUrl + '" width="' + sWidth + '" height="' + sHeight + '" type="audio/x-pn-realaudio-plugin" autostart="true" controls="IMAGEWINDOW,ControlPanel,StatusBar" console="Clip1"></EMBED>';
+	dialogArguments.insertHTML(sHTML);
+
+	window.returnValue = null;
+	window.close();
+}
+
+function ok(){
+	d_width.value=ToInt(d_width.value);
+	d_height.value=ToInt(d_height.value);
+
+	ReturnValue();
+}
+
+function InitDocument(){
+	adjustDialog();
+}
+</script>
+</HEAD>
+
+<BODY onload="InitDocument()">
+<table border=0 cellpadding=0 cellspacing=5 id=tabDialogSize><tr><td>
+
+
+<table border=0 cellpadding=0 cellspacing=0 align=center>
+<tr>
+	<td>
+	<fieldset>
+	<legend>媒体文件来源</legend>
+	<table border=0 cellpadding=5 cellspacing=0 width="100%">
+	<tr><td>
+
+		<table border=0 cellpadding=0 cellspacing=2 width="100%">
+		<tr>
+			<td noWrap width="20%"><input type=radio id="d_checkfromurl" value="1" checked><label for=d_checkfromurl>网络</label>:</td>
+			<td noWrap width="80%"><input type=text id='d_fromurl' style='width:100%' size=10 value='http://'></td>
+		</tr>
+		</table>
+
+	</td></tr>
+	</table>
+	</fieldset>
+	</td>
+</tr>
+<tr><td height=5></td></tr>
+<tr>
+	<td>
+	<fieldset>
+	<legend>播放效果</legend>
+	<table border=0 cellpadding=5 cellspacing=0 width="100%">
+	<tr><td>
+
+		<table border=0 cellpadding=0 cellspacing=2 width="100%">
+		<tr>
+			<td noWrap width="20%">播放宽度:</td>
+			<td noWrap width="29%"><input style="width:80px" type=text id=d_width size=10 value="200" ONKEYPRESS="event.returnValue=IsDigit();" maxlength=4></td>
+			<td width="2%">&nbsp;</td>
+			<td noWrap width="20%">播放高度:</td>
+			<td noWrap width="29%"><input style="width:80px" type=text id=d_height size=10 value="200" ONKEYPRESS="event.returnValue=IsDigit();" maxlength=4></td>
+		</tr>
+		</table>
+
+	</td></tr>
+	</table>
+	</fieldset>
+	</td>
+</tr>
+<tr><td height=5></td></tr>
+<tr><td noWrap align=right><input type=submit value='确定' id=Ok onclick="ok()">&nbsp;&nbsp;<input type=button value='取消' onclick="window.close();"></td></tr>
+</table>
+
+
+</td></tr></table>
+
+
+</body>
+</html>

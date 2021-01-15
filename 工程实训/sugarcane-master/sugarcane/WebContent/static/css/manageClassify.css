@@ -1,0 +1,106 @@
+li{
+	float: left;
+	list-style: none;
+}
+li a{
+	font-size: 20px;
+	padding: 10px;
+}
+input{
+	border-radius: 5px;
+	width: 90px;
+}
+select{
+	border-radius: 5px;
+	width: 130px;
+	height: 25px;
+	font-size: 15px;
+}
+#seta1{
+	float: left;
+}
+#list{
+	width: 20%;
+	float: left;
+	padding: 30px 0px 400px 0px;
+	/*padding-left: 100px;*/
+	border-right: 2px solid #90B44B;
+	background-color: #90B44B;
+	opacity: 0.91;
+}
+.a1{
+	/*background-color: #fff;*/
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	font-size: 14px;
+	/*float: left;*/
+}
+.button {
+            position: relative;/*绝对定位!*/
+            display: inline-block;/*设置为行内元素*/
+            background: white;
+            border: 1px solid #D3D3D3;
+            border-radius: 4px;
+            padding: 2% 8%;
+            overflow: hidden;
+            color: black;
+            text-decoration: none;
+            text-indent: 0;
+            line-height: 20px;
+        }
+
+.button:hover {        
+            border:2px solid #9ACD32;
+            color: white;
+            text-decoration: none;
+}
+.leftb{
+	/*background-color: #D3D3D3;*/
+	display: inline-block;
+	/*margin: 40px 0 0 30px ;*/
+	/*margin-bottom: 10px;*/
+	width: 100%;
+	height:60px;
+	line-height: 60px;
+}
+#setClass{
+	text-align: center;
+	padding-top: 35px;	
+}
+#a1{
+	width: 200px;
+	font-size: 2em;
+	font-family: '微软雅黑';
+}
+#table{
+	width: 70%;
+	text-align: center;
+	padding-left: 9.79%;
+	float: left;
+}
+table{
+	text-align: center;
+	/*padding:30px 100px 80px 0px;*/
+	padding-top:5%;
+	/*padding-right: 1%;*/
+	/*border:#D3D3D3 1px solid;*/
+}
+table tr td{
+	width: 150px;
+	height: 40px;
+	font-size: 15px;
+	padding-left: 40px;
+	border:#90B44B 1px solid;
+	text-align: center;
+	padding: 5px;
+}
+table tr td a{
+	font-size: 1.2em;
+}
+#pageDivide{
+	padding-top: 10%;
+	width: 100%;
+	float: left;
+	padding-left: 15%;
+}

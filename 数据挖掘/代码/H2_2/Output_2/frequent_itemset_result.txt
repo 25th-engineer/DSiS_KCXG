@@ -1,0 +1,31 @@
+{pip fruit}
+{canned beer}
+{newspapers}
+{citrus fruit}
+{shopping bags}
+{whipped/sour cream}
+{margarine}
+{other vegetables}
+{sausage}
+{fruit/vegetable juice}
+{brown bread}
+{frankfurter}
+{bottled water}
+{yogurt}
+{pastry}
+{tropical fruit}
+{curd}
+{whole milk}
+{domestic eggs}
+{butter}
+{root vegetables}
+{soda}
+{rolls/buns}
+{coffee}
+{napkins}
+{pork}
+{bottled beer}
+{beef}
+{other vegetables,whole milk}
+{whole milk,yogurt}
+{rolls/buns,whole milk}

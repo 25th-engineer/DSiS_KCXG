@@ -1,0 +1,54 @@
+0.1
+RandomForestClassifier accuracy:    0.8709677419354839
+RandomForestClassifier precision:   0.8511904761904762
+RandomForestClassifier recall:      0.8979591836734694
+RandomForestClassifier f1 score:    0.8607915893630179
+
+0.2
+RandomForestClassifier accuracy:    0.8870967741935484
+RandomForestClassifier precision:   0.9133597883597884
+RandomForestClassifier recall:      0.8928571428571428
+RandomForestClassifier f1 score:    0.8918810234599709
+
+0.3
+RandomForestClassifier accuracy:    0.8387096774193549
+RandomForestClassifier precision:   0.9063563887093298
+RandomForestClassifier recall:      0.8689158016147636
+RandomForestClassifier f1 score:    0.8593681917211330
+
+0.4
+RandomForestClassifier accuracy:    0.8373983739837398
+RandomForestClassifier precision:   0.9171132897603486
+RandomForestClassifier recall:      0.8545484080571799
+RandomForestClassifier f1 score:    0.8676162071758213
+
+0.5
+RandomForestClassifier accuracy:    0.9025974025974026
+RandomForestClassifier precision:   0.9581557225235385
+RandomForestClassifier recall:      0.9315740740740741
+RandomForestClassifier f1 score:    0.9357614607614608
+
+0.6
+RandomForestClassifier accuracy:    0.7459459459459460
+RandomForestClassifier precision:   0.6580909510618651
+RandomForestClassifier recall:      0.6338201272411799
+RandomForestClassifier f1 score:    0.6122999445274805
+
+0.7
+RandomForestClassifier accuracy:    0.7209302325581395
+RandomForestClassifier precision:   0.6252146900651595
+RandomForestClassifier recall:      0.5631795004753263
+RandomForestClassifier f1 score:    0.5432743755673793
+
+0.8
+RandomForestClassifier accuracy:    0.6341463414634146
+RandomForestClassifier precision:   0.6313329105226997
+RandomForestClassifier recall:      0.5868028492834995
+RandomForestClassifier f1 score:    0.5668891401659856
+
+0.9
+RandomForestClassifier accuracy:    0.5198555956678700
+RandomForestClassifier precision:   0.3655943859193406
+RandomForestClassifier recall:      0.3390691641384162
+RandomForestClassifier f1 score:    0.3182298729422353
+

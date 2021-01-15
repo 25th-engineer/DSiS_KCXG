@@ -1,0 +1,199 @@
+
+li{
+	float: left;
+	list-style: none;
+}
+li a{
+	font-size: 20px;
+	padding: 10px;
+}
+select{
+	border-radius: 5px;
+	width: 160px;
+	height: 27px;
+}
+.mo{
+
+}
+.a1:hover{
+	background-color: "yellow";
+}
+#list{
+	float: left;
+	padding: 30px 0px 430px 0px;
+	/*padding-left: 100px;*/
+	border-right: 2px solid #90B44B;
+	background-color: #90B44B;
+	opacity: 0.91;
+}
+.a1{
+	/*background-color: #fff;*/
+	width:300px;
+	height: 60px;
+	text-align: center;
+	/*font-size: 40px;*/
+	/*float: left;*/
+}
+.leftb{
+	/*background-color: #D3D3D3;*/
+	display: inline-block;
+	/*margin: 40px 0 0 30px ;*/
+	/*margin-bottom: 10px;*/
+	width: 300px;
+	height:60px;
+	line-height: 60px;
+}
+#classDetail{
+<<<<<<< HEAD
+	padding-top: 35px;
+	
+}
+input{
+	height: 20px;
+}
+textarea{
+	border-radius:5px;
+}
+table{
+	padding:30px 100px 0px 40px;
+	/*border:#D3D3D3 1px solid;*/
+}
+table tr td{
+	width: 150px;
+	height: 15px;
+	font-size: 1.2em;
+	font-family: '微软雅黑';
+	padding-left: 40px;
+	text-align: center;
+	line-height: 50px;
+	padding: 0px;
+}
+.file {
+            position: relative;/*绝对定位!*/
+            display: inline-block;/*设置为行内元素*/
+            background: #90B44B;
+            border: 1px solid white;
+            border-radius: 4px;
+            padding: 9px 8px;
+            overflow: hidden;
+            color: black;
+            text-decoration: none;
+            text-indent: 0;
+            line-height: 20px;
+        }
+.file input {
+            position: absolute;/*相对定位*/
+            right: 0;
+            top: 0;
+            opacity: 0;/*将上传组件设置为透明的*/
+            font-size: 100px;
+}
+.file:hover {
+            background: #B1B479;
+            border-color: #B1B479;
+            color: white;
+            text-decoration: none;
+}
+.button {
+            position: relative;/*绝对定位!*/
+            display: inline-block;/*设置为行内元素*/
+            background: white;
+            border: 1px solid #D3D3D3;
+            border-radius: 4px;
+            padding: 7px 40px;
+=======
+	padding-top: 3.5%;
+	width: 100%;
+      height: 80%
+}
+.save{
+		text-align: center;
+		padding-bottom: 10px;
+		display: block;
+	    width: 90px;
+	    height: 26px;
+	    line-height: 26px;
+	    text-align: center;
+	    font-size: 15px;
+	    background: rgb(120, 195, 0);
+	    color: #fff;
+	    text-decoration: none;
+	    cursor: pointer;
+	    border-width: 1px;
+	    border-style: solid;
+	    border-color: rgb(120, 195, 0);
+	    border-radius: 16px;
+	    border-top-left-radius: 16px;
+	    border-top-right-radius: 16px;
+	    border-bottom-left-radius: 16px;
+	    border-bottom-right-radius: 16px;
+}
+input{
+	height: 40%;
+}
+textarea{
+	border-radius:4%;
+      width: 60%
+}
+table{
+      padding:1.2% 10% 0% 10%;
+      /*border:#D3D3D3 1px solid;*/
+}
+table tr td{
+      width: 8%;
+      height: 20%;
+      font-size: 1.2em;
+      font-family: '微软雅黑';
+      padding-left: 1%;
+      text-align: center;
+      line-height: 50px;
+      padding: 0%;
+}
+
+.file {
+            position: relative;/*绝对定位!*/
+            display: inline-block;/*设置为行内元素*/
+            background: #90B44B;
+            border: 1px solid white;
+            border-radius: 4px;
+            margin-top: 2%;
+            padding: 2% 4%;
+            overflow: hidden;
+            color: black;
+            text-decoration: none;
+            text-indent: 0;
+            line-height: 20px;
+        }
+.file input {
+            position: absolute;/*相对定位*/
+            right: 0;
+            top: 0;
+            opacity: 0;/*将上传组件设置为透明的*/
+            font-size: 100em;
+}
+.file:hover {
+            background: #B1B479;
+            border-color: #B1B479;
+            color: white;
+            text-decoration: none;
+}
+.button {
+            position: relative;/*绝对定位!*/
+            display: inline-block;/*设置为行内元素*/
+            background: white;
+            border: 1px solid #D3D3D3;
+            border-radius: 4px;
+            padding: 2% 8%;
+>>>>>>> branch 'master' of https://github.com/WuTung/sugarcane
+            overflow: hidden;
+            color: black;
+            text-decoration: none;
+            text-indent: 0;
+            line-height: 20px;
+        }
+
+.button:hover {        
+            border:2px solid #9ACD32;
+            color: white;
+            text-decoration: none;
+}

@@ -1,0 +1,17 @@
+/*左侧用户管理字样*/
+#user{
+	text-decoration:underline;
+	color:#993366;
+	font-size:20px;
+}
+#user:hover{
+	color:black;
+}
+
+
+
+
+
+
+
+

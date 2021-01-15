@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>留言板信息</title>
+</head>
+<body>
+<center><table style="border:dotted;border-color:#F06">
+<caption>留言内容</caption>
+<tr><th>用户</th><th>标题</th><th>内容</th></tr>
+<?PHP
+	$servername = "localhost";
+	$username = "root";
+	$password = "root";
+	$dbname = "messageboard";
+	
+
+	//创建连接
+	$conn = new mysqli($servername,$username,$password,$dbname);
+
+	//检测连接
+	if($conn->connect_error)
+		{
+			die("Connection failed:" .$conn->connect_error);
+		}
+	
+	/*mysqli_query("set names 'uft8'"); */
+	
+	$result = $conn->query("select * from mymessage");//执行查询
+	
+	while($row = mysqli_fetch_assoc($result))//将result结果集中查询结果取出一条
+	{
+ 	echo"<tr><td>".$row["name"]."</td><td>".$row["title"]."</td><td>".$row["content"]."</td><tr>";
+
+	}
+	/*mysql_free_result(result);*/
+?>
+</table>
+
+</center>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.veveup.dao.MessageDao">
+    <select id="findAll" resultType="com.veveup.domain.Message">
+        select * from message
+    </select>
+
+    <select id="findAllVisiable" resultType="com.veveup.domain.Message">
+        select * from message where ishidden is null or ishidden = 0
+    </select>
+
+    <insert id="InsertMessage" parameterType="com.veveup.domain.Message">
+        insert into message(content,author,date,authorId) values(#{content},#{author},DateTime('now','localtime'),#{authorId})
+    </insert>
+
+    <insert id="InsertMessageAndReturnId" parameterType="com.veveup.domain.Message" useGeneratedKeys="true"
+            keyColumn="id" keyProperty="id">
+        insert into message(content,author,date,authorId) values(#{content},#{author},DateTime('now','localtime'),#{authorId})
+    </insert>
+
+    <update id="setHiddenById" parameterType="java.lang.Integer">
+        update message set ishidden=1 where id = #{id}
+    </update>
+
+    <update id="addLikesById" parameterType="java.lang.Integer">
+        update message set likes = likes + 1 where id=#{id}
+    </update>
+
+    <update id="minusLikesById" parameterType="java.lang.Integer">
+        update message set likes = likes - 1 where id=#{id} and likes>0
+    </update>
+
+    <select id="findMessageById" parameterType="java.lang.Integer" resultType="com.veveup.domain.Message">
+        select * from message where id = #{id}
+    </select>
+
+    <update id="updateMessage" parameterType="com.veveup.domain.Message">
+        update message set content=#{content},author=#{author} where id=#{id}
+    </update>
+
+</mapper>

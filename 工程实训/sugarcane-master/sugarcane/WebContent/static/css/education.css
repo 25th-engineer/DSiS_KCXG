@@ -1,0 +1,417 @@
+.body{
+	width: 100%px; 
+	height:1000px;
+	margin: 0 auto;
+}
+.first{
+		height: 15%;
+		width: 100%;
+		float: left;
+}
+.firstroom{
+	height: 92%;
+	width: 99%;
+	background-color:	#CCE8CF;
+	margin-left: 5px;
+	float: left;
+	margin-top: 6px;
+}
+.line{
+		height: 3%;
+		width: 100%;
+		float: left;
+}
+.linet{
+		height: 1px;
+		width: 100%;
+		background-color: gray;
+		float: left;
+		margin-top: 10px;
+}
+.second{
+	height: 22%;
+	width: 100%;
+	float: left;
+}
+
+.third{
+	height: 60%;
+	width: 100%;
+	float: left;
+}
+.eduimg{
+	float: left;
+	height: 100%;
+	width: 25%;
+	
+}
+.eduimg img{
+	height:120px;
+	border-radius: 50%;
+	margin-left:  150px;
+	margin-top: 10px;
+}
+.edutext1{
+	float: left;
+	height: 60%;
+	width: 25%;
+	
+	
+}
+.edutext1 p{
+	font-size: 35px;
+	margin-left: 35px;
+	margin-top: 20px;
+}
+.edutext2{
+	float: left;
+	height:70%;
+	width: 500PX;
+		
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.edutext2 p{
+	font-size: 13px;
+}
+.count{
+	float: right;
+	height: 100%;
+	width: 10%;
+	
+}
+.count p{
+
+	font-size: 15px;
+	margin-top: 52px;
+}
+.zan{
+	float: right;
+	height: 100%;
+	width: 10%;
+	
+}
+.zan a {
+	
+	font-size: 30px;
+	margin-top: 52px;
+}
+.ai{
+	margin-top: 40px;
+	float: right;
+	margin-right: 20px;
+}
+
+.hand{
+
+	height: 15%;
+	width: 100%;
+	float: left;
+}
+.hand p{
+	font-size: 15px;
+	margin-left: 120px;
+	margin-top: 10px;
+}
+
+.smallline{
+	height: 10%;
+	width: 100%;
+	float: left;
+}
+.smalllinet{
+	background-color: gray;
+	height: 1px;
+	width: 150px;
+	margin-left: 75px;
+}
+.content{
+	height: 60%;
+	width: 100%;
+	float: left;
+}
+.content p{
+		font-size: 15px;
+		width: 410px;
+		margin-left: 150px;
+}
+.room{
+	height: 99%;
+	width: 99%;
+	background-color: #CCE8CF;
+	margin-left: 5px;
+}
+.tleft{
+
+		height: 100%;
+		width: 22%;
+		float: left;
+}
+.tleft table td{
+	background-color: ;
+	height: auto;
+	width: 200px;
+	border:1px solid black;
+	border-radius: 10%;
+	
+
+
+}
+.tleft table{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.add{
+	height: 50px;
+	width: 100%;
+	float: left;
+	
+}
+.addimg{
+	height: 100%;
+	width: 40%;
+	float: left;
+    text-align: center;  
+       
+}
+.addimg a img{
+	height: 30px;
+	margin-top:15px;
+	border-radius: 80%;
+}
+
+
+.wenzi{
+	height: 100%;
+	width: 60%;
+	float: left;
+
+}
+.wenzi a{
+	text-align: center;
+}
+.wenzi a p {
+	font-size: 20px;
+	margin-top: 20px;
+	color: black;
+}
+.xiala{
+	text-align: right;
+}
+
+#menu1{
+width:100%;
+font-size:9px;
+display: none;
+	}
+
+#menu1 a{
+		font-size: 20px;
+		margin-right: 20px;
+		color: black;
+	}
+	#menu2{
+width:100%;
+font-size:9px;
+display: none;
+	}
+
+#menu2 a{
+		font-size: 20px;
+		margin-right: 20px;
+color: black;
+	}
+
+#menu3{
+width:100%;
+font-size:9pt;
+display: none;
+	}
+#menu3 a{
+		font-size: 20px;
+		margin-right: 20px;
+color: black;
+	}
+#menu4{
+width:100%;
+font-size:9pt;
+display: none;
+	}
+#menu4 a{
+		font-size: 20px;
+		margin-right: 20px;
+color: black;
+	}
+.tline{
+	height: 85%;
+	width: 1px;
+	background-color: gray;
+	float: left;
+	margin-top: 40px;
+}
+.tright{
+	height: 100%;
+	width: 77%;
+	float: left;
+}
+
+
+.one{
+	height: 8%;
+	width: 100%;
+	float: left;
+}
+.one p{
+
+	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 200px;
+
+}
+.two{
+	height: 1px;
+	width: 100%;
+	float: left;
+}
+.twoline{
+	height: 100%;
+	width: 120px;
+	margin-left: 160px;
+	float: left;
+	background-color: gray;
+}
+.three{
+	height: 82%;
+	width: 100%;
+	float: left;
+
+}
+.three table td{
+	height: 90px;
+	width: 400px;
+}
+.three table{
+	margin-left: 20em;
+	margin-top: 2em;
+}
+.conimg{
+	float: left;
+	height: 100%;
+	width: 30%;
+}
+.conimg img {
+	height: 7em;
+	width: 10em;
+}
+.context{
+	float: left;
+	height: 100%;
+	width: 70%;
+}
+.context a{
+	font-size: 15px;
+	padding-left:5em;
+}
+.conimg1{
+	float: left;
+	height: 100%;
+	width: 30%;
+}
+.conimg1 img {
+	height: 90px;
+	width: 100px;
+}
+.context1{
+	float: left;
+	height: 100%;
+	width: 70%;
+}
+.context1 a{
+	font-size: 15px;
+}
+.conimg2{
+	float: left;
+	height: 100%;
+	width: 30%;
+}
+.conimg2 img {
+	height: 90px;
+	width: 100px;
+}
+.context2{
+	float: left;
+	height: 100%;
+	width: 70%;
+}
+.context2 a{
+	font-size: 15px;
+}
+.conimg3{
+	float: left;
+	height: 100%;
+	width: 30%;
+}
+.conimg3 img {
+	height: 90px;
+	width: 100px;
+}
+.context3{
+	float: left;
+	height: 100%;
+	width: 70%;
+}
+.context3 a{
+	font-size: 15px;
+}
+.conimg4{
+	float: left;
+	height: 100%;
+	width: 30%;
+}
+.conimg4 img {
+	height: 90px;
+	width: 100px;
+}
+.context4{
+	float: left;
+	height: 100%;
+	width: 70%;
+}
+.context4 a{
+	font-size: 15px;
+}
+.four{
+	height: 9.99%;
+	width: 100%;
+	float: left;
+}
+
+.list a{
+		float: left;
+		margin:5px 10px 0 1px;
+		width: 20px;
+		height: 20px;
+		color: #999;
+		font:22px/20px 宋体;
+		text-align: center;
+		text-decoration: none;
+
+}
+
+.list a:hover{
+	position: relative;
+	margin:0 -9px 0 -9px;
+	padding: 0 5px;
+	width: 30px;
+	height: 30px;
+	font:bold 26px/30px 宋体;
+	color:#000;
+	border: 1px solid black;
+	background-color: #eee;
+
+
+}
+.list{
+	margin-left: 350px;
+}

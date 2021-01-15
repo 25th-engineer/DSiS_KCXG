@@ -1,0 +1,9 @@
+/*左侧培训机构管理字样*/
+#company{
+	text-decoration:underline;
+	color:#993366;
+	font-size:20px;
+}
+#company:hover{
+	color:black;
+}

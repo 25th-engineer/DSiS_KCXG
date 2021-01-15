@@ -1,0 +1,1 @@
+python374 dbscan-template.py E:\code\Python\DataMining\H2_2\DBScan\Data\data_1.txt 0.1 10

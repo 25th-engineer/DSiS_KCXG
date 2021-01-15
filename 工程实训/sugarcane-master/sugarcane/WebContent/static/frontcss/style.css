@@ -1,0 +1,250 @@
+/*通用样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+img{border:none;}
+ul li{list-style-type: none;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+
+.overall{
+	width: 95em;
+	height:50em;
+	margin: 0 auto;
+}
+
+/*header*/
+.header{
+	left: 0em;
+    top: 0em;
+    width: 100%;
+    height: 2.8125em;
+    background-color: #E8E8E8;
+    text-align: center;
+    margin: 0 auto;
+    opacity:1;
+}
+.logo img{
+	width: 12.5em;
+	height: 3.1em;
+	position: relative;
+	left: 10.5em;
+	float: left;
+}
+.home{
+    width: 8.8125em;
+    height: 1.875em;
+	line-height: 1.4375em;
+	background-color: white;
+	font-size: 1em;
+	text-align: 0 center;
+	font-family: '微软雅黑';
+	float: left;
+	position: relative;
+	top: 0.3125em;
+	left: 17.875em;
+	padding-top: 0.625em;
+}
+.home a{
+	font-weight: 300;
+	color: black;
+	font-family: '微软雅黑';
+}
+.allclass{
+    width: 8.8125em;
+    height: 1.875em;
+	line-height: 1.4375em;
+	font-size: 1em;
+	text-align: 0 center;
+	float: left;
+	position: relative;
+	top:0.3125em;
+	left: 18.1875em;
+	padding-top: 0.625em;
+}
+.allclass a{
+	font-weight: 300;
+	color: black;
+	font-family: '微软雅黑';
+}
+.sousuo input{
+	float: left;
+	padding-top: 0.4375em;
+	position: relative;
+	top:0.6875em;
+	left: 25.8125em;
+	height: 1.5625em;
+	color: gray;
+	width: 15.625em; 
+	height: 1.4375em;
+	border-radius: 2.625em; 
+	border: 0.0625em solid #E8E8E8; 
+	float: left;
+	outline:none;
+	text-indent:1em;
+}
+.s_img{
+	float: left;
+	position: relative;
+	top:0.825em;
+	left: 21.8375em;
+}
+.s_img a img{
+	width: 1.1875em;
+	height: 1.1875em;
+}
+.login_regist{
+	width: 6.25em;
+	height: 2em;
+	float: left;
+	text-align: center;
+	padding-top: 0.8125em;
+	position: relative;
+	left: 27.4375em;
+}
+.login_regist a{
+	font-weight: 300;
+	color: #9ACD32;
+}
+.org_login{
+	width: 6.25em;
+	height: 2em;
+	float: left;
+	text-align: center;
+	padding-top: 0.8125em;
+	position: relative;
+	left: 29.9375em;
+}
+.org_login a{
+	font-weight: 300;
+	color: #9ACD32;
+}
+
+
+/*footer*/
+.footer{
+	width:100%;
+	height:2.1875em;
+	background-color: #E8E8E8;
+	margin: 0 auto;
+	text-align: center;
+	position:fixed; /*使底部永远位于页面底部*/
+    bottom:0;
+}
+.footer_text{
+	width: 25em;
+	height: 1.25em;
+	margin:0 auto;
+	padding-top: 0.3125em;
+	color: #9C9C9C;
+}
+
+/*注册登录弹框*/
+.event{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -15.625em 0 0 -12.5em;
+	z-index: 9999;
+}
+.login{
+	width: 25em;
+	height: 31.25em;
+	background: #ffffff;
+	background: rgba(255,255,255,.5);
+
+	filter: alpha(opacity=50);
+	box-shadow: 0 0 1.875em black;
+	border-radius: 0.625em;	
+	
+}
+.regist{
+	width: 25em;
+	height: 40.625em;
+	background: #ffffff;
+	background: rgba(255,255,255,.5);
+
+	filter: alpha(opacity=50);
+	box-shadow: 0 0 1.875em black;
+	border-radius: 0.625em;	
+	
+}
+.title{
+	float: left;
+	width: 25em;
+	height: 3.75em;
+	line-height: 3.75em;
+	border-bottom: 0.0625em solid #cccccc;
+	position: relative;
+}
+.t_txt{
+	float: left;
+	margin-left: 1.25em;
+	font-size: 1em;
+	color: green;
+	position: relative;
+}
+.del{
+	float: right;
+	margin-right: 1.25em;
+	color: #ffffff;
+	position: relative;
+}
+.del:hover{
+	color: #000000;
+	cursor: pointer;
+}
+.login input{
+	display: block;
+	float: left;
+	width: 22.5em;
+	height: 2.8125em;
+	line-height: 2.8125em;
+	margin: 1.25em;
+	text-indent: 1.25em;
+	border: 0.0625em solid #cccccc;
+}
+#email,#pwd_login,#forgetPwd,#noAccount,#pwd_pwd,#petname,#phone{
+	position: relative;
+	left:2.5em;
+}
+#pwd_regist,#email_regist{
+	position: relative;
+	left:2.5em;
+}
+.bcde,.error_pwd,.bcd,#spinfo2,#spinfo3,#spinfo1{
+	float: left;
+	position: relative;
+	left:9.5em;
+}
+.regist input{
+	display: block;
+	float: left;
+	width: 22.5em;
+	height: 2.8125em;
+	line-height: 2.8125em;
+	margin: 1.25em;
+	text-indent: 1.25em;
+	border: 0.0625em solid #cccccc;
+}
+.btn{
+	border-radius: 0.3125em;
+	background: green;
+	border: none;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+}
+#backgroundImg{
+	position: absolute;
+	display: none;
+	height: 187.5em;
+	width: 100%;
+	top: 0em;
+	background:#DCDBDC;
+	z-index: 1000;
+	-moz-opacity: 0.8;
+    opacity:.70;
+    filter: alpha(opacity=70);
+}

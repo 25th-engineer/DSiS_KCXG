@@ -1,0 +1,72 @@
+-- MySQL dump 10.10
+--
+-- Host: localhost    Database: gbook
+-- ------------------------------------------------------
+-- Server version	5.0.18-nt
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `admin`
+--
+
+DROP TABLE IF EXISTS `admin`;
+CREATE TABLE `admin` (
+  `username` varchar(20) NOT NULL,
+  `userpass` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=gb2312;
+
+--
+-- Dumping data for table `admin`
+--
+
+
+/*!40000 ALTER TABLE `admin` DISABLE KEYS */;
+LOCK TABLES `admin` WRITE;
+INSERT INTO `admin` VALUES ('admin','adminpass');
+UNLOCK TABLES;
+/*!40000 ALTER TABLE `admin` ENABLE KEYS */;
+
+--
+-- Table structure for table `message`
+--
+
+DROP TABLE IF EXISTS `message`;
+CREATE TABLE `message` (
+  `id` int(4) NOT NULL auto_increment,
+  `author` varchar(20) NOT NULL,
+  `addtime` datetime NOT NULL,
+  `content` varchar(1000) NOT NULL,
+  `reply` varchar(1000) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=gb2312;
+
+--
+-- Dumping data for table `message`
+--
+
+
+/*!40000 ALTER TABLE `message` DISABLE KEYS */;
+LOCK TABLES `message` WRITE;
+INSERT INTO `message` VALUES (2,'小册','2009-05-09 08:54:44','大家好！很高兴跟大家见面！','你好！欢迎你的加入！希望你以后能够常来！');
+UNLOCK TABLES;
+/*!40000 ALTER TABLE `message` ENABLE KEYS */;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+

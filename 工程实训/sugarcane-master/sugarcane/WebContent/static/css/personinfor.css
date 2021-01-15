@@ -1,0 +1,182 @@
+.body{
+	width: 1400px; 
+	height:1000px;
+	margin: 0 auto;
+
+}
+.left{
+	width: 24.9%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.personimg{
+	width: 100%;
+	height: 15%;
+	float: left;
+	
+}
+.personimg img{
+	margin-top: 50px;
+	border-radius: 50%;
+	height: 130px;
+	width: 130px;
+
+}
+.nickname{
+	width: 100%;
+	height: 10%;
+	float: right;
+	
+
+}
+.nickname p{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 20px;
+}
+.reinfor{
+	width: 60%;
+	height: 4%;
+	float: left;
+	margin-top: 50px;
+	margin-left: 65px;
+}
+.reinfor a{
+	text-align:center;
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-size: 25px;
+	border: 1px solid black;
+	border-radius: 20%;
+}
+.reinfor a:hover{
+	background-color: 		#DEFFAC;
+
+}
+.collect{
+	margin-top: 50px;
+	width: 60%;
+	height: 4%;
+	float: left;
+	margin-left: 65px;
+}
+.collect a{
+	text-align:center;
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-size: 25px;
+	border: 1px solid black;
+	border-radius: 20%;
+	font-family: '宋体';
+}
+.collect a:hover{
+	background-color: 	#DEFFAC;
+
+}
+.line{
+	width: 0.1%;
+	height: 75%;
+	background-color: gray;
+	float: left;
+	margin-top: 40px;
+}
+.right{
+	width: 75%;
+	height: 100%;
+	float: left;
+
+}
+.infor{
+	width:100%;
+	height: 10%;
+	float: left;
+	margin-left: 100px;
+	margin-top: 20px;
+
+}
+.infor p{
+	margin-left: 75px;
+	margin-top: 40px;
+	font-size: 20px;
+}
+.inforline{
+	width: 15%;
+	height:0.1%;
+	float: left;
+	background-color: gray;
+	margin-left: 135px;
+	margin-top: -30px;
+}
+.information{
+	width: 100%;
+	height: 50%;
+	float: left;
+	
+}
+.information table td{
+	height: 50px;
+	width: 200px;
+	font-size: 17px;	
+
+}
+.information table{
+	margin-left: 180px;
+	margin-top: 25px;
+}
+.inforline2{
+	width: 95%;
+	height:0.1%;
+	float: left;
+	background-color: gray;
+	margin-left: 20px;
+}
+.infor2{
+	width:100%;
+	height: 10%;
+	float: left;
+	margin-left: 100px;
+
+}
+.infor2 p{
+	margin-left: 80px;
+	margin-top: 40px;
+	font-size: 20px;
+}
+.inforline3{
+	width: 15%;
+	height:0.1%;
+	float: left;
+	background-color: gray;
+	margin-left: 140px;
+	margin-top: -30px;
+}
+.fuxuankuang{
+	width: 100%;
+	height: 18%;
+	float: left;
+}
+.fuxuankuang table td{
+	height: 40px;
+	width: 200px;
+}
+.fuxuankuang table{
+	margin-left: 200px;
+}
+.tijiao{
+	width: 100%;
+	height: 12%;
+	float: left;
+}
+.tijiao input{
+	float: right;
+	margin-right: 180px;
+	width: 100px;
+	background:	#DEFFAC;
+	height: 25px;
+	border-radius: 15%;
+
+
+}

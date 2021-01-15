@@ -1,0 +1,40 @@
+eWebEditor简体中文精简版使用说明(V4.60)
+
+
+版权声明
+=============================
+1. eWebEditor在线编辑器（简称：eWebEditor），已获得国家版权局颁发的《计算机软件著作权登记证书》（登记号:2004SR06549）。
+2. eWebEditor简体中文精简版(V4.60)，允许个人无商业目的的免费使用，但必须保留产品的相关版权标识。任何组织使用，个人商业目的使用，仍需购买授权。
+
+
+V4.60精简版使用说明
+=============================
+1. 精简版，在ASP、PHP、JSP、ASP.NET四个平台通用。
+   注意：默认为asp平台下使用，如在其它平台下使用，请用记事本打开ewebeditor.htm文件，按如下方法修改保存即可。
+   config.ServerExt = "asp";
+   改为
+   config.ServerExt = "php";
+   或
+   config.ServerExt = "jsp";
+   或
+   config.ServerExt = "aspx";
+
+2. 自带10个样式，样式名分别为：coolblue、3d、blue、gray、light、mini、popup、red、yellow。
+   您可以使用如下的方法分别调用不同的样式，示例：
+   <iframe ID="eWebEditor1" src="ewebeditor.htm?id=content1&style=coolblue" frameborder="0" scrolling="no" width="500" HEIGHT="350"></iframe>
+
+3. _example目录为示例目录，您可以参考eWebEditor的基本功能使用方法，更多，请参看用户手册。
+
+4. 详细精简版与商业版的区别，见官方网站的购买指南页说明：
+   http://www.ewebeditor.net/buy.asp
+
+
+
+
+
+
+信息：
+=============================
+更新：2007年03月11日
+网址：http://www.eWebSoft.com
+      http://www.eWebEditor.net

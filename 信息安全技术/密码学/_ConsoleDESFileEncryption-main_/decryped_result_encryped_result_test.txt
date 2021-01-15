@@ -1,0 +1,29 @@
+Sleep函数
+
+功能： 执行挂起一段时间，也就是等待一段时间在继续执行
+
+用法：Sleep（时间）
+
+头文件：Windows下为--> windows.h
+
+     Linux 下为 --> unistd.h
+
+注意：
+（1）Sleep是区分大小写的，有的编译器是大写，有的是小写。
+
+（2）Sleep括号里的时间，在windows下是已毫秒为单位，而Linux是以秒为单位
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<windows.h>
+int main()
+{	
+	int a = 1;
+	while (a)
+	{
+		printf("Welcome to M78 nebula.\n");
+		Sleep(1000);
+	}
+	system("pause");
+	return 0;
+}

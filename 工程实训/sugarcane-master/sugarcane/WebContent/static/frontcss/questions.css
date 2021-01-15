@@ -1,0 +1,33 @@
+.body{
+	height:90em;
+	width: 75%;
+	margin:0 auto;
+	background-color: rgba(248,248,255,0.5);
+}
+h2{
+	font-weight: 100;
+	font-size: 1.875em;
+	padding-top: 1.25em;
+	padding-bottom: 1.875em;
+}
+.one{
+	width: 60%;
+	height:9.375em;
+	border: 0.0625em solid rgba(220,220,220,0.5);
+	margin:0 auto;
+}
+.one input{
+	margin-top: 0.625em;
+	margin-left: 3.125em;
+}
+.one span{
+	margin-left: 3.125em;
+}
+#btn{
+	margin-top: 0.625em;
+	margin-left:53.125em;
+	background-color: white;
+	border: 0.0625em solid rgba(220,220,220,1.5);
+	height: 2.5em;
+	width: 4em;
+}

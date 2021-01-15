@@ -1,0 +1,190 @@
+
+*{
+	font-size:12px;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+ul li{list-style-type: none;}
+a{
+	text-decoration:none;	
+}
+
+
+/*header*/
+.header{
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	height:50px;
+	width:65%;
+	margin-left:17%;
+	margin-top:50px;
+}
+.header p{
+	margin-right:30px;
+	font-size:25px;
+	font-weight:bolder;
+	float:right;
+}
+.header a{
+	margin-top:5px;
+	font-size:20px;
+	color:black;
+	float:right;
+}
+.header a:hover{
+	font-weight:bolder;
+}
+
+/*body*/
+.body{
+	width:80%;
+	margin-left:10%;
+	margin-top:20px;
+	border-top:6px solid #993366;
+	height:700px;
+}
+
+
+/*左侧选项*/
+.left{
+	width:19%;
+	height:700px;
+	float:left;
+	border-right:4px solid #993366;
+	margin-top:-20px;
+}
+.option{
+	margin-top:150px;
+}
+.option li{
+	margin-top:40px;
+}
+.option li a{
+	color:black;
+	font-size:20px;
+	font-weight:bolder;
+}
+.option li a:hover{
+	color:#993366;
+}
+/*右侧内容*/
+.right{
+	width:80%;
+	height:700px;
+	float:right;
+}
+.first{
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+	font-size:20px;
+}
+.first a{
+	color:black;
+	font-size:20px;
+}
+/*搜索栏*/
+.form{
+	margin-top:80px;
+}
+.text{
+	margin-right:15px;
+	padding-left:10px;
+	font-size:15px;
+	font-weight:bolder;
+	height:35px;
+	color:#cc99cc;
+	border:1px solid #cc99cc;
+	text-align:left;
+}
+.search{
+	background-color:#cc99cc;
+	font-size:15px;
+	font-weight:bolder;
+	height:36px;
+	width:80px;
+}
+/*表格样式*/
+.table{
+	margin:0 auto;
+	margin-top:25px;
+	border:1px solid #cc99cc;
+	border-collapse: collapse;
+}
+.table tr th{
+	font-size:15px;
+	height:60px;
+	width:150px;
+	border-bottom:2px solid #cc99cc;
+	border-right:2px solid #cc99cc;
+}
+.table tr td{
+	font-size:15px;
+	height:60px;
+	width:150px;
+	border-bottom:2px solid #cc99cc;
+	border-right:2px solid #cc99cc;
+}
+.table tr td.lastcol{
+	border-right:0px;
+}
+.table tr.lastrow td{
+	border-bottom:0px;
+}
+
+/*复选框样式*/
+input[type="checkbox"]{
+	display:none;
+}
+input[type="checkbox"] + label{
+    background-color: white;
+    border:3px solid #993366;
+    border-radius: 5px;
+    width:20px;
+    height:20px;
+    display: inline-block;
+    line-height: 20px;
+}
+input[type="checkbox"]:checked + label:after{
+    content:"\2714";
+	font-size: 2em;
+}
+
+/*分页*/
+.fenye{
+	width:60%;
+	margin:0 auto;
+	margin-top:40px;
+	padding-left:80px;
+}
+.fenye a,td{
+	color:black;
+	font-size:15px;
+}
+.fenye a:hover{
+	font-weight:bolder;
+}
+.go{
+	background-color:white;
+	font-size:15px;
+	width:40px;
+}
+
+/*footer*/
+.footer{
+	width:100%;
+	height:35px;
+	background-color: #E8E8E8;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer_text{
+	width: 400px;`
+	height: 20px;
+	margin:0 auto;
+	padding-top: 5px;
+	color: #9C9C9C;
+}
+
+

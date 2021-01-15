@@ -1,0 +1,36 @@
+CREATE TABLE IF NOT EXISTS `students`(
+`stu_id` VARCHAR(40) NOT NULL,
+`stu_name` VARCHAR(100) NOT NULL,
+`email` VARCHAR(40) NOT NULL,
+`password` VARCHAR(100) NOT NULL,
+`submission_time` timestamp,
+PRIMARY KEY ( `stu_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `courses`(
+`course_id` VARCHAR(30) not null,
+`course_name` VARCHAR(100) NOT NULL,
+`credit` int not null,
+`submission_time` timestamp,
+PRIMARY KEY ( `course_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `SC`(
+`stu_id` VARCHAR(40) NOT NULL,
+`course_id` VARCHAR(30) not null,
+`grade` int not null,
+`submission_time` timestamp,
+PRIMARY KEY ( `stu_id`, `course_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+insert into lab_3_2.courses (course_id, course_name, credit, submission_time) values('98030111','线性代数', 2, current_timestamp);
+insert into lab_3_2.courses (course_id, course_name, credit, submission_time) values('98030112','高等数学', 6, current_timestamp);
+insert into lab_3_2.courses (course_id, course_name, credit, submission_time) values('98030113','大学英语', 1, current_timestamp);
+insert into lab_3_2.courses (course_id, course_name, credit, submission_time) values('98030114','大学语文', 1, current_timestamp);
+insert into lab_3_2.courses (course_id, course_name, credit, submission_time) values('98030115','复变函数', 2, current_timestamp);
+
+insert into lab_3_2.sc (stu_id, course_id, grade, submission_time) values('2017218001', '98030111', 100, current_timestamp);
+insert into lab_3_2.sc (stu_id, course_id, grade, submission_time) values('2017218001', '98030112', 80, current_timestamp);
+insert into lab_3_2.sc (stu_id, course_id, grade, submission_time) values('2017218002', '98030111', 90, current_timestamp);
+insert into lab_3_2.sc (stu_id, course_id, grade, submission_time) values('2017218002', '98030115', 90, current_timestamp);

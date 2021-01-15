@@ -1,0 +1,417 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>[求职]文华-C++后端开发工程师</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"  type="text/css" href="assets/css/typo.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+
+    <script>
+        function loading() {
+            document.getElementsByClassName('avatar')[0].style.display = 'block';
+            document.getElementsByClassName('loading')[0].style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <article class="container">
+        <section class="side" id="side">
+
+
+            <label class="switch" style="display: none;" onchange="switchFixed()">
+                <script type="text/javaScript">
+                    function switchFixed() {
+                    var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
+                    document.getElementById('side').style.position = value;
+                }
+            </script>
+                <input id="cb" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <style>
+                @media (min-width: 414px) {
+                    .switch {
+                        position: relative;
+                        display: inline-block !important;
+                        width: 60px;
+                        height: 34px;
+                    }
+
+                    .switch input {
+                        display: none;
+                    }
+
+                    .slider {
+                        position: absolute;
+                        cursor: pointer;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background-color: #ccc;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+
+                    .slider:before {
+                        position: absolute;
+                        content: "";
+                        height: 26px;
+                        width: 26px;
+                        left: 4px;
+                        bottom: 4px;
+                        background-color: white;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+
+                    input:checked+.slider {
+                        background-color: #1abc9c;
+                    }
+
+                    input:focus+.slider {
+                        box-shadow: 0 0 1px #1abc9c;
+                    }
+
+                    input:checked+.slider:before {
+                        -webkit-transform: translateX(26px);
+                        -ms-transform: translateX(26px);
+                        transform: translateX(26px);
+                    }
+
+                    .slider.round {
+                        border-radius: 34px;
+                    }
+
+                    .slider.round:before {
+                        border-radius: 50%;
+                    }
+                }
+            </style>
+            <!-- 左侧固定开关，记得及时删除这段代码 End-->
+
+            <!-- 个人肖像 -->
+            <section class="me">
+                <section class="portrait">
+                    <!-- <div class="loading">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div> -->
+                    <!-- 头像照片 -->
+                    <img class="avatar" src="assets/images/profile.jpg">
+                </section>
+
+                <h1 class="name"><strong>意向岗位</strong></h1>
+                <h4 class="info-job"><strong>C++后端开发工程师</strong> </h4>
+
+            </section>
+
+            <!-- 基本信息 -->
+            <section class="profile info-unit">
+                <h2>
+                    <i class="fa fa-user" aria-hidden="true"></i>基本信息</h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label>个人信息</label>
+                        <span>姓名：文华<br>性别：男<br>出生年月： 1998.11</span>
+                    </li>
+                    <li>
+                        <label>英语水平</label>
+                        <span>CET-4： 470/710<br>CET-6： 394/710</span>
+                    </li>
+
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="contact info-unit">
+                <h2>
+                    <i class="fa fa-phone" aria-hidden="true"></i>联系方式</h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label><i class="fa fa-qq"></i></label>
+                        <a target="_blank">2046195761</a>
+                    </li>
+                    <li>
+                        <label><i class="fa fa-envelope"></i></label>
+                        <a href="mailto:hack_hu@163.com" target="_blank">u25th_engineer@163.com</a>
+                    </li>
+                    <li>
+                        <label><i class="fa fa-file-text-o"></i></label>
+                        <a href="https://u25th-engineer.blog.csdn.net/" target="_blank">博客</a>
+                    </li>
+                    <li>
+                        <label><i class="fa fa-github" aria-hidden="true"></i></label>
+                        <a href="https://github.com/25thengineer" target="_blank">Github主页</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                    <h2>
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历</h2>
+                    <hr />
+                    <ul>
+                        <li>
+                            <h3>
+                                <p>合肥工业大学</p>
+								<p>层次：本科</p>
+                                <p>专业：物联网工程</p>
+                            </h3>
+                            <time>时间：<mark> 2017.9-2021.7</mark></time>
+                            <p>
+                                GPA：<mark>2.7/4.5</mark>
+                            </p>
+                            <p>专业排名：<mark>58/101</mark>
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            <!-- 个人技能 -->
+            <section class="skill info-unit">
+                <h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>技能点</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>C</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>C++</label>
+                        <progress value="75" max="100"></progress>
+                    </li>
+					
+					<li>
+                        <label>Qt</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+					
+					<li>
+                        <label>Linux</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+					
+                    <li>
+                        <label>Python</label>
+                        <progress value="50" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>PHP</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>MySQL</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+        <section class="main">
+
+            <!-- 专业能力 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>主修课程</h2>
+                <hr />
+                <p>高等数学、线性代数、离散数学、复变函数与积分变换、C++程序设计与算法、数字电路逻辑,机器学习基础、JAVA面向对象学习、计算机组成原理、数据结构、汇编语言程序设计、编译原理、嵌入式系统、微机原理、计算机网络、数据库系统、计算机体系结构、操作系统、传感器原理、单片机原理等。
+                </p>
+            </section>
+
+            <!-- 项目经验 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-trophy" aria-hidden="true"></i>荣誉奖项</h2>
+                <hr />
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[1]<a href="https://github.com/25thengineer/testGitInWindows10" target="_blank"> 2019年第13届iCAN国际创新创业大赛 | 安徽省二等奖</a></span>
+                            <span class="link">
+                                <a href="https://github.com/25thengineer/testGitInWindows10" target="_blank">证书</a>
+                            </span>
+                            <time>2019.8-2019.9</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>级别：省部级</li>
+                            <li>
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                [角色]队长
+                                <br />
+                                <i class="fa fa-tasks" aria-hidden="true"></i>
+                                [职责]设计项目方案，給队友分配任务，实现Demo，文档撰写
+                                <br />
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[2]<a href="https://github.com/25thengineer/testGitInWindows10" target="_blank">
+                                    2020年美国数学建模比赛（MCM/ICM） | 三等奖</a></span>
+                            <span class="link">
+                                <a href="https://github.com/25thengineer/testGitInWindows10" target="_blank">证书</a>
+                            </span>
+                            <time>2020.2-2020.3</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>级别：国际级</li>
+                            <li>
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                [角色]核心队员
+                            </li>
+                            <li>
+                                <i class="fa fa-tasks" aria-hidden="true"></i>
+                                [职责]主要负责对模型进行编程实现
+                            </li>
+                        </ul>
+                    </li>
+					<li>
+                        <h3>
+                            <span>[3] <a href="https://github.com/25thengineer/testGitInWindows10" target="_blank">
+                                    2019-2020年大学生创新创业大赛省级项目</a></span>
+                            <span class="link">
+                                <a href="https://github.com/25thengineer/testGitInWindows10" target="_blank">证书</a>
+                            </span>
+                            <time>2019.4-2020.5</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>级别：省级（大创项目）</li>
+                            <li>
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                [角色]主持人
+                            </li>
+                            <li>
+                                <i class="fa fa-tasks" aria-hidden="true"></i>
+                                [职责]项目方案设计，统筹协调，借助Saprk进行数据预处理，并使用Jiagu完成知识关系提取。项目成果获学校专家组审核通过
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </section>
+
+            <!-- 项目经验 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-terminal" aria-hidden="true"></i>项目经历</h2>
+                <hr />
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[项目1]<a href="https://github.com/25thengineer/GomokuGame" target="_blank"> 四子棋/五子棋</a></span>
+                            <span class="link">
+                                <a href="https://github.com/25thengineer/GomokuGame" target="_blank">Demo</a>
+                            </span>
+                            <time>2018.1-2018.3</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：C++ + MFC</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [项目简介]构建一个可以在四子棋与五子棋间切换模式，能够存档、读档，且能够实现玩家在线联机对战的棋类游戏
+                                <br />
+                                <i class="fa fa-user-o" aria-hidden="true"></i>
+                                [角色与职责]独立完成了需求分析、接口设计、编程实现与调试等所有工作
+                                <br />
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目2] <a href="https://github.com/sundyCoder/DEye" target="_blank">
+                                    深度学习：芯片表面缺陷检测</a></span>
+                            <span class="link">
+                                <a href="https://github.com/sundyCoder/DEye" target="_blank">Demo</a>
+                            </span>
+                            <time>2019.5-2019.9</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：Python + TensorFlow + Linux</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [项目简介]借助TensorFlow框架，对DEye开源项目实现二次开发，用于芯片表面缺陷检测
+                            </li>
+                            <li>
+                                <i class="fa fa-user-o" aria-hidden="true"></i>
+                                [角色与职责]初期小组成员：在Ubuntu 16.04上搭建开发环境，使用DeemedLabel对元数据进行标记，调节相关参数训练模型
+                            </li>
+                        </ul>
+                    </li>
+					<li>
+                        <h3>
+                            <span>[项目3] <a href="https://github.com/25thengineer/DaChuangFiles" target="_blank">
+                                    基于Spark平台的人工智能知识的知识图谱构建</a></span>
+                            <span class="link">
+                                <a href="https://github.com/25thengineer/DaChuangFiles" target="_blank">Demo</a>
+                            </span>
+                            <time>2019.4-2020.5</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：Scala + Java + Python + Spark + Hadoop + Hive + MySQL + Linux</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [项目简介]基于Spark平台与Jiagu模型构建了人工智能中的机器学习、自然语言处理与机器视觉等三个领域的知识图谱，完成相关知识的重整，取得了较好的实验效果
+                            </li>
+                            <li>
+                                <i class="fa fa-user-o" aria-hidden="true"></i>
+                                [角色与职责]主持人：协调团队；使用Scala编程借助Spark进行数据预处理，使用Python编程借助Jiagu模型提取文本的知识关系；论文与有关报告撰写
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </section>
+            
+
+
+
+        </section>
+    </article>
+
+
+    <footer class="footer">
+        <p> <b>感谢您花时间阅读我的简历，期待能有机会和您共事。</b> </p>
+    </footer>
+
+    <!-- 侧栏 -->
+    <aside>
+        <ul>
+            <li>
+                <a href="https://github.com/25thengineer" target="_blank">Github</a>
+            </li>
+            <li>
+                <a href="https://www.wenhua.link/" target="_blank">Blog</a>
+            </li>
+        </ul>
+    </aside>
+
+</body>
+
+</html>

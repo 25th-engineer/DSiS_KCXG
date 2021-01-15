@@ -1,0 +1,68 @@
+E:\大四上_课程有关\信息安全技术\实验图片\NAMP>Nmap -sP 210.45.240.197
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-03 14:47 China Standard Time
+Nmap scan report for www.hfut.edu.cn (210.45.240.197)
+Host is up (0.010s latency).
+Nmap done: 1 IP address (1 host up) scanned in 2.35 seconds
+
+E:\大四上_课程有关\信息安全技术\实验图片\NAMP>Nmap -sT 210.45.240.197
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-03 14:48 China Standard Time
+Nmap scan report for www.hfut.edu.cn (210.45.240.197)
+Host is up (0.010s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 43.34 seconds
+
+E:\大四上_课程有关\信息安全技术\实验图片\NAMP>Nmap -sS 210.45.240.197
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-03 14:49 China Standard Time
+Nmap scan report for www.hfut.edu.cn (210.45.240.197)
+Host is up (0.0098s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 6.29 seconds
+
+E:\大四上_课程有关\信息安全技术\实验图片\NAMP>Nmap -sU 210.45.240.197
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-03 14:49 China Standard Time
+Nmap scan report for www.hfut.edu.cn (210.45.240.197)
+Host is up (0.0090s latency).
+All 1000 scanned ports on www.hfut.edu.cn (210.45.240.197) are open|filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 22.92 seconds
+
+E:\大四上_课程有关\信息安全技术\实验图片\NAMP>Nmap -sV 210.45.240.197
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-03 14:50 China Standard Time
+Nmap scan report for www.hfut.edu.cn (210.45.240.197)
+Host is up (0.0090s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx
+443/tcp open  ssl/http nginx
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 24.09 seconds
+
+E:\大四上_课程有关\信息安全技术\实验图片\NAMP>Nmap -O -P0 210.45.240.197
+Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-03 14:51 China Standard Time
+Nmap scan report for www.hfut.edu.cn (210.45.240.197)
+Host is up (0.0048s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: WAP|general purpose|bridge|router|VoIP phone|webcam|switch
+Running (JUST GUESSING): Linux 2.4.X|2.6.X (93%), Belkin embedded (90%), Digi embedded (89%), Enterasys embedded (89%), Alice embedded (87%), Allnet embedded (87%), Cisco SAN-OS 3.X (87%)
+OS CPE: cpe:/o:linux:linux_kernel:2.4.17 cpe:/h:belkin:n300 cpe:/o:linux:linux_kernel:2.6.30 cpe:/o:linux:linux_kernel:2.4 cpe:/h:allnet:2210 cpe:/h:cisco:mds_9124 cpe:/h:cisco:mds_9216i cpe:/o:cisco:san_os:3
+Aggressive OS guesses: Neptune354 firmware (MontaVista Linux 2.4.17) (93%), Belkin N300 WAP (Linux 2.6.30) (90%), Linux 2.4.19 - 2.4.20 (89%), Digi PortServer TS serial-to-Ethernet bridge (89%), Enterasys Matrix X-series router (Linux 2.4) (89%), Linux 2.4.21 (SuSE 9.0) (88%), Sirio by Alice VoIP phone (87%), Allnet 2210 webcam, Cisco MDS 9124 or 9216i switch (SAN-OS 3.1 - 3.2), or Nortel IP Phone 1535 (87%), Cisco MDS 9000 switch (87%), Cisco IP Phone 8945 (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 11.48 seconds
+
+E:\大四上_课程有关\信息安全技术\实验图片\NAMP>

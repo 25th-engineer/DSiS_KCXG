@@ -1,0 +1,53 @@
+1
+MLPClassifier accuracy:      0.7580645161290323
+MLPClassifier precision:     0.7647186147186147
+MLPClassifier recall:        0.7232363315696649
+MLPClassifier f1 score:      0.7072751322751322
+
+2
+MLPClassifier accuracy:      0.9032258064516129
+MLPClassifier precision:     0.9278711484593838
+MLPClassifier recall:        0.9318627450980392
+MLPClassifier f1 score:      0.9138691373985491
+
+3
+MLPClassifier accuracy:      0.8548387096774194
+MLPClassifier precision:     0.8037698412698413
+MLPClassifier recall:        0.8104166666666666
+MLPClassifier f1 score:      0.8043215008675535
+
+4
+MLPClassifier accuracy:      0.8548387096774194
+MLPClassifier precision:     0.8376623376623376
+MLPClassifier recall:        0.8624255952380953
+MLPClassifier f1 score:      0.8413398692810458
+
+5
+MLPClassifier accuracy:      0.7903225806451613
+MLPClassifier precision:     0.7586996336996338
+MLPClassifier recall:        0.7310348381776953
+MLPClassifier f1 score:      0.7294681508967223
+
+6
+MLPClassifier accuracy:      0.8709677419354839
+MLPClassifier precision:     0.9541666666666667
+MLPClassifier recall:        0.9421296296296295
+MLPClassifier f1 score:      0.9415123456790124
+
+7
+MLPClassifier accuracy:      0.8548387096774194
+MLPClassifier precision:     0.9327731092436975
+MLPClassifier recall:        0.9124649859943978
+MLPClassifier f1 score:      0.9080991672687174
+
+8
+MLPClassifier accuracy:      0.8225806451612904
+MLPClassifier precision:     0.8441176470588235
+MLPClassifier recall:        0.8347338935574230
+MLPClassifier f1 score:      0.8218157851375844
+
+9
+MLPClassifier accuracy:      0.8064516129032258
+MLPClassifier precision:     0.7372549019607844
+MLPClassifier recall:        0.7563025210084033
+MLPClassifier f1 score:      0.7334479246243951

@@ -1,0 +1,39 @@
+accuracy:
+
+KNN: 					0.822581
+DecisionTree: 			0.848387
+MLPClassifier:			0.854839
+NaiveBayes:				0.806452	
+SVM:					0.774194				
+RandomForestClassifier:	0.870161
+Bagging:				0.860484			
+
+precision:
+
+KNN:					0.921569
+DecisionTree:			0.889450	
+MLPClassifier:			0.932773
+NaiveBayes:				0.762037
+SVM:					0.878151
+RandomForestClassifier:	0.900289
+Bagging:				0.908593
+
+recall:
+
+KNN:					0.871849
+DecisionTree:			0.896814
+MLPClassifier:			0.912465
+NaiveBayes:				0.776455
+SVM:					0.808824
+RandomForestClassifier:	0.898870
+Bagging:				0.905770
+
+f1 score:
+
+KNN:					0.868691
+DecisionTree:			0.876363
+MLPClassifier:			0.908099
+NaiveBayes:				0.739943
+SVM:					0.808678
+RandomForestClassifier:	0.886938
+Bagging:				0.893309

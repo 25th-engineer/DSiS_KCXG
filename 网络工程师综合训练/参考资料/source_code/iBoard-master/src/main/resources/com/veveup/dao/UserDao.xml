@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.veveup.dao.UserDao">
+    <select id="findAll" resultType="com.veveup.domain.User">
+        select * from user
+    </select>
+
+    <select id="findUserByName" parameterType="java.lang.String" resultType="com.veveup.domain.User">
+        select * from user where name=#{name}
+    </select>
+
+    <insert id="insertUser" parameterType="com.veveup.domain.User">
+        insert into user(name,password,email) values(#{name},#{password},#{email})
+    </insert>
+
+    <update id="updateUserByUser" parameterType="com.veveup.domain.User">
+        update user set name=#{name},password=#{password},email=#{email} where uid=#{uid}
+    </update>
+</mapper>

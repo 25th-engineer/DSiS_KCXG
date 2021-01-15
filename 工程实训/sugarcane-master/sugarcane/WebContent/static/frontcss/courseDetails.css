@@ -1,0 +1,368 @@
+.body{
+	height: 110.625em;
+	width: 75%;
+	margin:0 auto;
+	background-color: rgba(248,248,255,0.5);
+}
+.course_details{
+	width: 90%;
+	height:20.75em;
+	margin: 0 auto;
+	border-bottom: 0.1em solid rgba(220,220,220,0.5);
+}
+.videos{
+	width: 25em;
+	float: left;
+	position: relative;
+	top:0.75em;
+	left:7.5em;
+}
+.videos video{
+	width: 100%;
+	height: auto;
+}
+.course_info{
+	float: left;
+	height: 19em;
+	width: 25em;
+	position: relative;
+	top:0.75em;
+	left:8.5em;
+}
+.courseinfos{
+	width: 20em;
+	height: 2.5em;
+	position: relative;
+	top:1.8em;
+	left: 3em;
+	font-weight: bolder;
+}
+.course_info span{
+	display: inline;
+	padding: 0.0625em 3.125em;
+}
+/*弹框*//*弹框*//*弹框*//*弹框*//*弹框*//*弹框*//*弹框*/
+.fadeud{
+	display: none;
+	font-size: 0.34rem;
+	color: #fff;
+	position:fixed;
+	z-index: 9999;
+	bottom: 2.3rem;
+	left: 2.5rem;
+}
+.fadeud >p{
+	background: rgba(0,0,0,0.5);
+	padding: 0.1rem 0.2rem;
+	border-radius: 0.1rem;
+}
+.fadeudfail{
+	display: none;
+	font-size: 0.34rem;
+	color: #fff;
+	position:fixed;
+	z-index: 9999;
+	bottom: 2.3rem;
+	left: 2.3rem;
+}
+.fadeudfail >p{
+	background: rgba(0,0,0,0.5);
+	padding: 0.1rem 0.2rem;
+	border-radius: 0.1rem;
+}
+h3{
+	font-size: 1em;
+	font-weight: 600;
+	position: relative;
+	top:0.75em;
+	left:10em;
+}
+.intro{
+	width: 90%;
+	height: 45em;
+	margin: 0 auto;
+	position: relative;
+	top: 1.25em;
+
+}
+.intro_top{
+	width: 85%;
+	height: 43em;
+	margin: 0.5625em auto;
+    background-color: rgba(0,0,0,0.01);
+}
+.intro_img1 {
+	float: left;
+	position: relative;
+	left:3em;
+	top:1em;
+}
+.intro_img1 img {
+	width:25em;
+	height:15em;
+}
+.intro_text1 {
+	float: left;
+	height: 10em;
+	width: 25em; 
+	text-align: center;
+	position: relative;
+	left:3em;
+	top:1em;
+	padding-top: 5em;
+}
+.intro_text1 span {
+	font-family: "幼圆";
+}
+.intro_text2{
+	float: left;
+	height: 10em;
+	width: 24.5em;
+	line-height:1.5625em;   
+	text-align: center;
+	position: relative;
+	left: -22em;
+	top:2em;
+	padding-top: 5em;
+}
+.intro_text2 span {
+	font-family: "幼圆";
+}
+.intro_img2{
+	float: left;
+	position: relative;
+	top:-13em;
+	left:28em;
+}
+.intro_img2 img {
+	width:25em;
+	height:15em;
+}
+.intro_text3{
+	float: left;
+	height: 5em;
+	width: 29em;
+	text-align: center;
+	position: relative;
+	top:3em;
+	left: -12em;
+	padding-top: 2em;
+}
+.intro_text3 span {
+	font-family: "幼圆";
+}
+/*复选框的总div*/
+.mixselect{
+	width: 40.625em;
+	height: 2em;
+	margin:0 auto;
+	padding-left: 5em;
+}
+
+/*复选框样式*/
+.demo--label{
+	width: 6.25em;
+	position: relative;
+	margin:1.25em 1.25em 0 0;
+	display:inline-block;
+}
+
+.demo--radio{
+	display:none;
+}
+.demo--radioInput{
+	background-color:#fff;
+	border:0.0625em solid rgba(0,0,0,0.15);
+	border-radius:100%;
+	display:inline-block;
+	height:1em;
+	position: relative;
+	top:-0.0625em;
+	right: 0.625em;
+	vertical-align:middle;
+	width:1em;
+	line-height:1;
+}
+.demo--radio:checked + .demo--radioInput:after{
+	background-color:#57ad68;
+	border-radius:100%;
+	content:"";
+	display:inline-block;
+	height:0.75em;
+	margin:0.125em;
+	width:0.75em;
+}
+.demo--checkbox.demo--radioInput,.demo--radio:checked + .demo--checkbox.demo--radioInput:after{
+	border-radius:0;
+}
+.evaluate{
+	border-top:0.1em solid rgba(220,220,220,0.5);
+	margin:0 auto;
+	width: 100%;
+	height: 20em;
+	position: relative;
+	top:2em;
+}
+.evaluate_top{
+	width: 85%;
+	height: 3.75em;
+	margin: 0 auto;
+}
+.evaluate_top span{
+	font-size: 1em;
+	font-weight: 600;
+	position: relative;
+	top:1em;
+	left:-23em;
+}
+.evaluate_top a {
+	height: 1.75em;
+	width: 8em;
+	font-size: 0.9375em;
+	background-color:#ADFF2F;
+	color: white;
+	position: relative;
+	left:-15em;
+	top:1em;
+	margin-right: 1em;
+	
+	border-width:0.0625;
+	border-style:solid;
+	border-color:rgba(120,195,0,0.5);
+	border-radius:1em;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	border-bottom-left-radius:1em;
+	border-bottom-right-radius:1em;
+}
+
+.evaluate_content{
+	border-bottom: 0.1em solid rgba(220,220,220,0.5);
+	width: 85%;
+	height: 7em;
+	margin:0 auto;
+	position: relative;
+	top:1em;
+	background-color: rgba(0,0,0,0.01);
+}
+.evaluate_content_person{
+	border-right:1px rgba(220,220,220,0.5) solid;
+	float: left;
+	width: 5em;
+	position: relative;
+	top:1em;
+	left:9em;
+}
+.evaluate_content_person img {
+	width:3em; 
+	height:3em;
+}
+.evaluate_content_text{
+	float: left;
+	height: 4.5em;
+	width: 33.75em;
+	position: relative;
+	top:1em;
+	left: 11em;
+	overflow:hidden; 
+	background-color: white;
+}
+.evaluate_content_img{
+	border:1px white solid;
+	float: left;
+	position: relative;
+	top:1em;
+	left: 13em;
+}
+.evaluate_content_img img{
+	 width:5em; 
+	 height:4.5em;
+}
+
+
+.evaluate_page{
+	width: 60%;
+	height: 3em;
+	margin: 0 auto;
+	position: relative;
+	top:1em;
+}
+.evaluate_page_list{
+	position: relative;
+	top:1em;
+	left: 5em;
+}
+.evaluate_page_list li {
+	width: 5em;
+	float: left;
+	position: relative;
+	left:4em;
+	text-align: center;
+	background-color: white;
+}
+
+.evaluate_page_list li a{
+	height: 1.25em;
+	width:2.5em;
+	color: black;
+}
+
+.evaluate_write textarea{
+	margin:0 auto;
+	position: relative;
+	top:2em;
+	left:14em;
+}
+.evaluate_write_submit {
+	position: relative;
+	top:2em;
+	left:45em;
+}
+.evaluate_write_submit input{
+	display:inline;
+	height: 1.75em;
+	width: 6.25em;
+	line-height:1.75em; 
+	text-align:center; 
+	font-size:0.9375em; 
+	background:rgb(120,195,0);
+	color:#fff; 
+	text-decoration:none; 
+	cursor:pointer;
+
+	border-width:0.0625;
+	border-style:solid;
+	border-color:rgb(120,195,0);
+	border-radius:1em;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	border-bottom-left-radius:1em;
+	border-bottom-right-radius:1em;
+}
+.recommend{
+	width: 90%;
+	height: 14em;
+	margin: 0 auto;
+	position: relative;
+	top:1em;
+}
+.recommend_content{
+	float: left;
+	width: 17em;
+	position: relative;
+	top:1em;
+	left: 5em;
+	border: 0.0625em solid gray;
+	margin-right: 1.25em;
+}
+.recommend_content_img{
+	background-color: rgba(220,220,220,0.5);
+}
+.recommend_content_text{
+	background-color: rgba(220,220,220,0.5);
+}
+.recommend_content span{
+	text-align: center;
+	display: block;
+	font-size: 0.9375em;
+}

@@ -1,0 +1,5 @@
+E:\大四上_课程有关\信息安全技术\实验图片\NAMP>Nmap -sP 210.45.240.197
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-03 14:47 China Standard Time
+Nmap scan report for www.hfut.edu.cn (210.45.240.197)
+Host is up (0.010s latency).
+Nmap done: 1 IP address (1 host up) scanned in 2.35 seconds

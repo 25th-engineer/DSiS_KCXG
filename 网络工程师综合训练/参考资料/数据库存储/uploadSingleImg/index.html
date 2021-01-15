@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>单个图片压缩上传</title>
+   
+   <link href="css/uploadSingleImg.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
+   <link href="css/style.css" rel="stylesheet"><!--自己书写input样式-->
+
+   <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+   <script type="text/javascript" src="js/tools.js"></script>
+   <script type="text/javascript" src="js/pictureHandle.js"></script>
+   
+</head>
+<body>
+
+  <form>
+
+    <!--文件选择input-->
+    <h3>文件选择：</h3>
+    <input class="btn btn-default" type="file" id="upFile" />
+
+    <!--文件选择input中已选择文件重置(采用form表单的reset重置按钮重置)-->
+    <h3>重置文件选择：</h3>
+    <input class="btn btn-default" type="reset" id="reBtn" value="清空" />
+
+    <!--提交压缩后的base64文件数据给后台-->
+    <h3>传给后台</h3>
+    <input class="btn btn-default" type="button" id="upTo" value="提交"/>
+
+    <!--后台所要获取的文件base64-->
+    <h3>后台获取base64文件数据：(一个隐藏域)</h3>
+    <input id="imgOne" name="imgOne" type="hidden"/>
+
+    <!--所选文件压缩前预览-->
+    <h3>压缩前预览：</h3>
+    <img src="" id="preview"/>
+
+    <!--所选文件压缩后预览-->
+    <h3>压缩后预览：</h3>
+    <img src="" id="nextview"/>
+
+  </form>
+
+</body>
+</html>

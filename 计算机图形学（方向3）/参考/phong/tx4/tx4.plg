@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: tx4 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/tx4.res" /d "_DEBUG" /d "_AFXDLL" "F:\downloads\tx4\tx4.rc"" 
+Creating temporary file "C:\Users\HADOOP~1\AppData\Local\Temp\RSP17C3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/tx4.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\downloads\tx4\tx4.cpp"
+"F:\downloads\tx4\tx4Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\HADOOP~1\AppData\Local\Temp\RSP17C3.tmp" 
+Creating temporary file "C:\Users\HADOOP~1\AppData\Local\Temp\RSP17C4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/tx4.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\downloads\tx4\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\HADOOP~1\AppData\Local\Temp\RSP17C4.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/tx4.pdb" /debug /machine:I386 /out:"Debug/tx4.exe" /pdbtype:sept  .\Debug\StdAfx.obj .\Debug\tx4.obj .\Debug\tx4Dlg.obj .\Debug\tx4.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+tx4.cpp
+tx4Dlg.cpp
+F:\downloads\tx4\tx4Dlg.cpp(219) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(219) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(219) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(219) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(219) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(219) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(220) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(220) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(220) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(220) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(220) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(220) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(221) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(221) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(221) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(221) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(221) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(221) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(242) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(242) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(242) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(242) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(242) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(242) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(242) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(242) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(243) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(243) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+F:\downloads\tx4\tx4Dlg.cpp(267) : warning C4172: returning address of local variable or temporary
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+tx4.exe - 0 error(s), 29 warning(s)
+</pre>
+</body>
+</html>
