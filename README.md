@@ -7,7 +7,7 @@
 </font>
 
 
-<font size=4 face=宋体>&emsp;&emsp;
+<font size=4 face=宋体>
 &emsp;&emsp;蒟蒻的初衷是，給自己的资料留一个备份，也希望給有需要的后来人一点参考。<br>
 &emsp;&emsp;有些文件超过了``100 MB``，蒟蒻为了上传成功只能``分卷压缩``。上传的所有文件总大小约为``1.31 GB``<br>
 </font>
